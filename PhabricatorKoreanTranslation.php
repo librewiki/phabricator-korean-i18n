@@ -500,99 +500,97 @@ final class PhabricatorKoreanTranslation
             ),
 
             'You can update these %d value(s) here:' => array(
-                'You can update this value here:',
-                'You can update these values here:',
+                '여기서 이 값을 수정할 수 있습니다:',
+                '여기서 이 값들을 수정할 수 있습니다:',
             ),
 
             'The current PHP configuration has these %d value(s):' => array(
-                'The current PHP configuration has this value:',
-                'The current PHP configuration has these values:',
+                '현재 PHP 설정에 있는 값:',
+                '현재 PHP 설정에 있는 값들:',
             ),
 
             'To update these %d value(s), edit your PHP configuration file.' => array(
-                'To update this %d value, edit your PHP configuration file.',
-                'To update these %d values, edit your PHP configuration file.',
+                '이 %d 값을 수정하려면, PHP 설정 파일을 편집해야 합니다.',
+                '이 %d 값들을 수정하려면, PHP 설정 파일을 편집해야 합니다.',
             ),
 
             'To update these %d value(s), edit your PHP configuration file, located '.
             'here:' => array(
-                'To update this value, edit your PHP configuration file, located '.
-                'here:',
-                'To update these values, edit your PHP configuration file, located '.
-                'here:',
+                '이 값을 수정하려면, 여기에 위치한 PHP 설정 파일을 편집하면 됩니다:',
+                '이 값들을 수정하려면, 여기에 위치한 PHP 설정 파일을 편집하면 됩니다:',
             ),
 
             'PHP also loaded these %s configuration file(s):' => array(
-                'PHP also loaded this configuration file:',
-                'PHP also loaded these configuration files:',
+                'PHP에서 이 설정 파일도 불러왔습니다.',
+                'PHP에서 이 설정 파일들도 불러왔습니다.',
             ),
 
             'You have %d unresolved setup issue(s)...' => array(
-                'You have an unresolved setup issue...',
-                'You have %d unresolved setup issues...',
+                '풀리지 않은 셋업 이슈가 있습니다...',
+                '%d개의 풀리지 않은 셋업 이슈들이 있습니다...',
             ),
 
             '%s added %d inline comment(s).' => array(
                 array(
-                    '%s added an inline comment.',
-                    '%s added inline comments.',
+                    '%s가 인라인 의견을 추가했습니다.',
+                    '%s가 인라인 의견들을 추가했습니다.',
                 ),
             ),
 
-            '%d comment(s)' => array('%d comment', '%d comments'),
-            '%d rejection(s)' => array('%d rejection', '%d rejections'),
-            '%d update(s)' => array('%d update', '%d updates'),
+            '%d comment(s)' => array('%d개의 의견', '%d개의 의견들'),
+            '%d rejection(s)' => array('%d개의 거절', '%d개의 거절들'),
+            '%d update(s)' => array('%d개의 수정사항', '%d개의 수정사항들'),
 
             'This configuration value is defined in these %d '.
             'configuration source(s): %s.' => array(
-                'This configuration value is defined in this '.
-                'configuration source: %2$s.',
-                'This configuration value is defined in these %d '.
-                'configuration sources: %s.',
+                '이 구성 값은 이 구성 소스에서 정의되있습니다 :'.
+                '%2$s.',
+                '이 구성 값은 이 %d개의 구성 소스들에서 정의되있습니다.'.
+                ' : %s.',
             ),
 
             '%d Open Pull Request(s)' => array(
-                '%d Open Pull Request',
-                '%d Open Pull Requests',
+                '%d개의 열린 Pull Request',
+                '%d개의 열린 Pull Request들',
             ),
 
             'Stale (%s day(s))' => array(
-                'Stale (%s day)',
-                'Stale (%s days)',
+                '비활동적 (%s일)',
+                '비활동적 (%s일)',
             ),
 
             'Old (%s day(s))' => array(
-                'Old (%s day)',
-                'Old (%s days)',
+                '오래됨 (%s일)',
+                '오래됨 (%s일)',
             ),
 
             '%s Commit(s)' => array(
-                '%s Commit',
-                '%s Commits',
+                '%s개의 커밋',
+                '%s개의 커밋들',
             ),
 
             '%s attached %d file(s): %s.' => array(
                 array(
-                    '%s attached a file: %3$s.',
-                    '%s attached files: %3$s.',
+                    '%s가 파일을 첨부했습니다: %3$s.',
+                    '%s가 파일들을 첨부했습니다: %3$s.',
                 ),
             ),
 
             '%s detached %d file(s): %s.' => array(
                 array(
-                    '%s detached a file: %3$s.',
-                    '%s detached files: %3$s.',
+                    '%s가 첨부파일을 내렸습니다: %3$s.',
+                    '%s가 첨부파일들을 내렸습니다: %3$s.',
                 ),
             ),
 
             '%s changed file(s), attached %d: %s; detached %d: %s.' =>
-                '%s changed files, attached: %3$s; detached: %5$s.',
+                '%s가 파일들을 변경했습니다, 첨부됨: %3$s; 내려감: %5$s.',
 
 
             '%s added %s dependencie(s): %s.' => array(
                 array(
-                    '%s added a dependency: %3$s.',
-                    '%s added dependencies: %3$s.',
+                    '%s가 의존성을 추가했습니다: %3$s.',
+                    '%s가 의존성들을 추가했습니다: %3$s.',
                 ),
             ),
 
