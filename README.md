@@ -1,2 +1,3 @@
-# phabricator-korean-i18n
-Korean translation for Phabricator
+#파브리케이터 한글화
+
+파브리케이터 한글화 프로젝트입니다. 번역의 협업은 [리브레 위키 이슈 트래커](https://issue.librewiki.net)에서 진행되나, 코드 리뷰는 깃헙에서 합니다
