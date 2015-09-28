@@ -99,52 +99,52 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Assigned Task(s)' => array(
-                '%d Assigned Task',
-                '%d Assigned Tasks',
+                '%d 할당된 태스크',
+                '%d 할당된 태스크들',
             ),
 
             'Show %d Lint Message(s)' => array(
-                'Show %d Lint Message',
-                'Show %d Lint Messages',
+                '%d개의 린트 메세지 보이기',
+                '%d개의 린트 메세지들 보이기',
             ),
             'Hide %d Lint Message(s)' => array(
-                'Hide %d Lint Message',
-                'Hide %d Lint Messages',
+                '%d개의 린트 메세지 숨기기',
+                '%d개의 린트 메세지들 숨기기',
             ),
 
             'This is a binary file. It is %s byte(s) in length.' => array(
-                'This is a binary file. It is %s byte in length.',
-                'This is a binary file. It is %s bytes in length.',
+                '이것은 바이너리 파일입니다. 크기는 I%s byte 입니다.',
+                '이것은 바이러니 파일입니다. 크기는 %s bytes 입니다..',
             ),
 
             '%d Action(s) Have No Effect' => array(
-                'Action Has No Effect',
-                'Actions Have No Effect',
+                '작업은 효과가 없었습니다.',
+                '작업들은 효과가 없었습니다.',
             ),
 
             '%d Action(s) With No Effect' => array(
-                'Action With No Effect',
-                'Actions With No Effect',
+                '아무효과가 없는 작업',
+                '아무효과가 없는 작업들',
             ),
 
             'Some of your %d action(s) have no effect:' => array(
-                'One of your actions has no effect:',
-                'Some of your actions have no effect:',
+                '당신의 작업중 하나가 효과가 없었습니다.:',
+                '당신의 작업중 일부가 효과가 없었습니다.:',
             ),
 
             'Apply remaining %d action(s)?' => array(
-                'Apply remaining action?',
-                'Apply remaining actions?',
+                '남아있는 작업을 적용할까요?',
+                '남아있는 작업들을 적용할까요?',
             ),
 
             'Apply %d Other Action(s)' => array(
-                'Apply Remaining Action',
-                'Apply Remaining Actions',
+                '남아있는 작업을 적용했습니다.',
+                '남아있는 작업들을 적용했습니다.',
             ),
 
             'The %d action(s) you are taking have no effect:' => array(
-                'The action you are taking has no effect:',
-                'The actions you are taking have no effect:',
+                '당신이 할려고 하는 작업들은 효과가 없습니다.:',
+                '당신이 할려고 하는 작업들은 효과가 없습니다.:',
             ),
 
             '%s edited member(s), added %d: %s; removed %d: %s.' =>
@@ -153,14 +153,14 @@ final class PhabricatorKoreanTranslation
             '%s added %s member(s): %s.' => array(
                 array(
                     '%s가 멤버로 추가했습니다.: %3$s.',
-                    '%s가 멤버료 추가했습니다.: %3$s.',
+                    '%s가 멤버로 추가했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s member(s): %s.' => array(
                 array(
-                    '%s removed a member: %3$s.',
-                    '%s removed members: %3$s.',
+                    '%s가 맴버를 삭제했습니다.: %3$s.',
+                    '%s가 맴버를 삭제했습니다.: %3$s.',
                 ),
             ),
 
@@ -169,133 +169,133 @@ final class PhabricatorKoreanTranslation
 
             '%s added %s project(s): %s.' => array(
                 array(
-                    '%s added a project: %3$s.',
-                    '%s added projects: %3$s.',
+                    '%s가 프로젝트를 추가했습니다.: %3$s.',
+                    '%s가 프로젝트들을 추가했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s project(s): %s.' => array(
                 array(
-                    '%s removed a project: %3$s.',
-                    '%s removed projects: %3$s.',
+                    '%s가 프로젝트를 삭제했습니다.: %3$s.',
+                    '%s가 프로젝트들을 삭제했습니다.: %3$s.',
                 ),
             ),
 
             '%s merged %d task(s): %s.' => array(
                 array(
-                    '%s merged a task: %3$s.',
-                    '%s merged tasks: %3$s.',
+                    '%s가 태스크를 병합했습니다.: %3$s.',
+                    '%s가 태스크들을 병합했습니다.: %3$s.',
                 ),
             ),
 
             '%s merged %d task(s) %s into %s.' => array(
                 array(
-                    '%s merged %3$s into %4$s.',
-                    '%s merged tasks %3$s into %4$s.',
+                    '%s가 %3$s을(를) %4$s(으)로 병합했습니다.',
+                    '%s가 %3$s들을 %4$s(으)로 병합했습니다.',
                 ),
             ),
 
             '%s added %s voting user(s): %s.' => array(
                 array(
-                    '%s added a voting user: %3$s.',
-                    '%s added voting users: %3$s.',
+                    '%s가 투표 사용자를 추가했습니다.: %3$s.',
+                    '%s가 투표 사용자들을 추가했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s voting user(s): %s.' => array(
                 array(
-                    '%s removed a voting user: %3$s.',
-                    '%s removed voting users: %3$s.',
+                    '%s가 투표 사용자를 삭제했습니다.: %3$s.',
+                    '%s가 투표 사용자들을 삭제했습니다.: %3$s.',
                 ),
             ),
 
             '%s added %s blocking task(s): %s.' => array(
                 array(
-                    '%s added a blocking task: %3$s.',
-                    '%s added blocking tasks: %3$s.',
+                    '%s가 태스크를 차단중입니다.: %3$s.',
+                    '%s가 태스크들을 차단중입니다.: %3$s.',
                 ),
             ),
 
             '%s added %s blocked task(s): %s.' => array(
                 array(
-                    '%s added a blocked task: %3$s.',
-                    '%s added blocked tasks: %3$s.',
+                    '%s가 태스크를 차단했습니다.: %3$s.',
+                    '%s가 태스크들을 차단했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s blocking task(s): %s.' => array(
                 array(
-                    '%s removed a blocking task: %3$s.',
-                    '%s removed blocking tasks: %3$s.',
+                    '%s가 차단중인 태스크를 삭제했습니다.: %3$s.',
+                    '%s가 차단중인 태스크들을 삭제했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s blocked task(s): %s.' => array(
                 array(
-                    '%s removed a blocked task: %3$s.',
-                    '%s removed blocked tasks: %3$s.',
+                    '%s가 차단된 태스크를 삭제했습니다.: %3$s.',
+                    '%s가 차단된 태스크들을 삭제했습니다.: %3$s.',
                 ),
             ),
 
             '%s added %s blocking task(s) for %s: %s.' => array(
                 array(
-                    '%s added a blocking task for %3$s: %4$s.',
-                    '%s added blocking tasks for %3$s: %4$s.',
+                    '%s가 %3$s을(를) 위해 태스크들을 차단중입니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 태스크들을 차단중입니다.: %4$s.',
                 ),
             ),
 
             '%s added %s blocked task(s) for %s: %s.' => array(
                 array(
-                    '%s added a blocked task for %3$s: %4$s.',
-                    '%s added blocked tasks for %3$s: %4$s.',
+                    '%s가 %3$s을(를) 위해 태스크를 차단했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위하 태스크를 차단했습니다.: %4$s.',
                 ),
             ),
 
             '%s removed %s blocking task(s) for %s: %s.' => array(
                 array(
-                    '%s removed a blocking task for %3$s: %4$s.',
-                    '%s removed blocking tasks for %3$s: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단중인 태스크를 삭제했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단중인 태스크를 삭제했습니다.: %4$s.',
                 ),
             ),
 
             '%s removed %s blocked task(s) for %s: %s.' => array(
                 array(
-                    '%s removed a blocked task for %3$s: %4$s.',
-                    '%s removed blocked tasks for %3$s: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단된 태스크를 삭제했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단된 태스크들을 삭제했습니다.: %4$s.',
                 ),
             ),
 
             '%s edited blocking task(s), added %s: %s; removed %s: %s.' =>
-                '%s edited blocking tasks, added: %3$s; removed: %5$s.',
+                '%s가 차단중인 태스크를 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s edited blocking task(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s edited blocking tasks for %s, added: %4$s; removed: %6$s.',
+                '%s가 %s을(를) 위해 차단중인 태스크를 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s edited blocked task(s), added %s: %s; removed %s: %s.' =>
-                '%s edited blocked tasks, added: %3$s; removed: %5$s.',
+                '%s가 차단된 태스크를 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s edited blocked task(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s edited blocked tasks for %s, added: %4$s; removed: %6$s.',
+                '%s가 %s을(를) 위해 차단된 태스크를 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s edited answer(s), added %s: %s; removed %d: %s.' =>
-                '%s edited answers, added: %3$s; removed: %5$s.',
+                '%s가 답변을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %s answer(s): %s.' => array(
                 array(
-                    '%s added an answer: %3$s.',
-                    '%s added answers: %3$s.',
+                    '%s가 답변을 추가했습니다.: %3$s.',
+                    '%s가 답변들을 추가했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s answer(s): %s.' => array(
                 array(
-                    '%s removed a answer: %3$s.',
-                    '%s removed answers: %3$s.',
+                    '%s가 답변을 삭제했습니다.: %3$s.',
+                    '%s가 답변들을 삭제했습니다.: %3$s.',
                 ),
             ),
 
             '%s edited question(s), added %s: %s; removed %s: %s.' =>
-                '%s edited questions, added: %3$s; removed: %5$s.',
+                '%s가 질문을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %s question(s): %s.' => array(
                 array(
