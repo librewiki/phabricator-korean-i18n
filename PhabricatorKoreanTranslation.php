@@ -525,8 +525,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'You have %d unresolved setup issue(s)...' => array(
-                '풀리지 않은 셋업 이슈가 있습니다...',
-                '%d개의 풀리지 않은 셋업 이슈들이 있습니다...',
+                '풀리지 않은 설정 이슈가 있습니다...',
+                '%d개의 풀리지 않은 설정 이슈들이 있습니다...',
             ),
 
             '%s added %d inline comment(s).' => array(
@@ -537,7 +537,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d comment(s)' => array('%d개의 의견', '%d개의 의견들'),
-            '%d rejection(s)' => array('%d개의 거절', '%d개의 거절들'),
+            '%d rejection(s)' => array('%d개의 거부', '%d개의 거부들'),
             '%d update(s)' => array('%d개의 수정사항', '%d개의 수정사항들'),
 
             'This configuration value is defined in these %d '.
