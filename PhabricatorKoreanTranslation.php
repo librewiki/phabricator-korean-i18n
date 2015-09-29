@@ -246,7 +246,7 @@ final class PhabricatorKoreanTranslation
             '%s added %s blocked task(s) for %s: %s.' => array(
                 array(
                     '%s가 %3$s을(를) 위해 작업을 차단했습니다.: %4$s.',
-                    '%s가 %3$s을(를) 위하 작업을 차단했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 작업을 차단했습니다.: %4$s.',
                 ),
             ),
 
