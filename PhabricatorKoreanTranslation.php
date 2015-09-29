@@ -64,8 +64,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Problem Commit(s)' => array(
-                '%d Problem Commit',
-                '%d Problem Commits',
+                '%d개의 문제 있는 커밋',
+                '%d개의 문제 있는 커밋들',
             ),
 
             '%d Review(s) Blocking Others' => array(
@@ -74,8 +74,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Review(s) Need Attention' => array(
-                '%d Review Needs Attention',
-                '%d Reviews Need Attention',
+                '%d개의 검토가 주의가 필요합니다.',
+                '%d개의 검토들이 주의가 필요합니다.',
             ),
 
             '%d Review(s) Waiting on Others' => array(
@@ -94,8 +94,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Object(s) Tracked' => array(
-                '%d Object Tracked',
-                '%d Objects Tracked',
+                '%d개의 객체 추적됨',
+                '%d개의 객체들 추적됨',
             ),
             '%d Assigned Task(s)' => array(
                 '%d 할당된 작업',
@@ -147,7 +147,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited member(s), added %d: %s; removed %d: %s.' =>
-                '%s edited members, added: %3$s; removed: %5$s.',
+                '%s이(가) 구성원 목록을 편집했습니다, 추가됨: %3$s; 제거됨: %5$s.',
 
             '%s added %s member(s): %s.' => array(
                 array(
@@ -164,7 +164,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited project(s), added %s: %s; removed %s: %s.' =>
-                '%s edited projects, added: %3$s; removed: %5$s.',
+                '%s가 프로젝트를 편집했습니다, 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %s project(s): %s.' => array(
                 array(
@@ -484,8 +484,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'Install these %d PHP extension(s):' => array(
-                '다음 PHP extension을 설치하세요:',
-                '다음 php extension을 설치하세요:',
+                '다음 PHP 확장을 설치하세요:',
+                '다음 php 확장을 설치하세요:',
             ),
 
             'The current Phabricator configuration has these %d value(s):' => array(
@@ -1124,8 +1124,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'Found %s book(s).' => array(
-                'Found %s book.',
-                'Found %s books.',
+                '%s 책 찾음.',
+                '%s 책들을 찾음.',
             ),
             'Found %s file(s) in project.' => array(
                 '프로젝트에서 %s 파일을 검색',
@@ -1170,11 +1170,11 @@ final class PhabricatorKoreanTranslation
                 ),
             ),
 
-            '%s Passed Test(s)' => '%s Passed',
-            '%s Failed Test(s)' => '%s Failed',
-            '%s Skipped Test(s)' => '%s Skipped',
-            '%s Broken Test(s)' => '%s Broken',
-            '%s Unsound Test(s)' => '%s Unsound',
+            '%s Passed Test(s)' => '%s 통과함',
+            '%s Failed Test(s)' => '%s 실패함',
+            '%s Skipped Test(s)' => '%s 생략됨',
+            '%s Broken Test(s)' => '%s 망가짐',
+            '%s Unsound Test(s)' => '%s 반응 없음',
             '%s Other Test(s)' => '%s Other',
 
             '%s Bulk Task(s)' => array(
