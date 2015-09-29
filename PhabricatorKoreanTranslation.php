@@ -151,15 +151,15 @@ final class PhabricatorKoreanTranslation
 
             '%s added %s member(s): %s.' => array(
                 array(
-                    '%s가 멤버로 추가했습니다.: %3$s.',
-                    '%s가 멤버로 추가했습니다.: %3$s.',
+                    '%s가 구성원으로 추가했습니다.: %3$s.',
+                    '%s가 구성원으로 추가했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s member(s): %s.' => array(
                 array(
-                    '%s가 맴버를 삭제했습니다.: %3$s.',
-                    '%s가 맴버를 삭제했습니다.: %3$s.',
+                    '%s가 구성원을 삭제했습니다.: %3$s.',
+                    '%s가 구성원을 삭제했습니다.: %3$s.',
                 ),
             ),
 
