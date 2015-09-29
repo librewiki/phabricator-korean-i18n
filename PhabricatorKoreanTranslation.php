@@ -311,7 +311,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited mock(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 mock을 편집했습니다. 추가: %3$s; 삭제: %5$s.',
+                '%s 님이 mock을 편집했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %s mock(s): %s.' => array(
                 array(
@@ -342,7 +342,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited file(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 파일을 바꾸었습니다. 추가: %3$s; 삭제: %5$s.',
+                '%s 님이 파일을 바꾸었습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %s file(s): %s.' => array(
                 array(
@@ -359,7 +359,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited contributor(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 기여자 목록을 수정했습니다. 추가: %3$s; 삭제: %5$s.',
+                '%s 님이 기여자 목록을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %s contributor(s): %s.' => array(
                 array(
@@ -376,10 +376,10 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited %s reviewer(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 검토자 목록을 수정했습니다, 추가: %4$s; 삭제: %6$s.',
+                '%s 님이 검토자 목록을 수정했습니다, 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s edited %s reviewer(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 "%3$s" 사유로 검토자 목록을 수정했습니다. 추가: %5$s; 삭제: %7$s.',
+                '%s 님이 "%3$s" 사유로 검토자 목록을 수정했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
 
             '%s added %s reviewer(s): %s.' => array(
                 array(
@@ -396,12 +396,12 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d other(s)' => array(
-                '1 other',
-                '외 %d 명',
+                '외 1명',
+                '외 %d명',
             ),
 
             '%s edited subscriber(s), added %d: %s; removed %d: %s.' =>
-                '님이 구독자 목록을 수정했습니다. 추가: %3$s; 삭제: %5$s.',
+                '님이 구독자 목록을 수정했습니다. 추가됨: %3$s; 제거됨: %5$s.',
 
             '%s added %d subscriber(s): %s.' => array(
                 array(
@@ -418,7 +418,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited watcher(s), added %s: %s; removed %d: %s.' =>
-                '%s 님이 주시자 목록을 수정했습니다. added: %3$s; removed: %5$s.',
+                '%s 님이 주시자 목록을 수정했습니다. 추가됨: %3$s; 제거됨: %5$s.',
 
             '%s added %s watcher(s): %s.' => array(
                 array(
@@ -435,7 +435,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited participant(s), added %d: %s; removed %d: %s.' =>
-                '%s 님이 참여자 목록을 수정했습니다. 추가: %3$s; 삭제: %5$s.',
+                '%s 님이 참여자 목록을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %d participant(s): %s.' => array(
                 array(
@@ -452,7 +452,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited image(s), added %d: %s; removed %d: %s.' =>
-                '%s 님이 이미지를 편집했습니다. 추가: %3$s; 제거: %5$s',
+                '%s 님이 이미지를 편집했습니다. 추가됨: %3$s; 제거됨: %5$s',
 
             '%s added %d image(s): %s.' => array(
                 array(
@@ -474,8 +474,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'Indexing %d object(s) of type %s.' => array(
-                '%s 오브젝트 %d 개를 색인 중입니다.',
-                '%s 오브젝트 %d 개를 색인 중입니다.',
+                '%s 객체 %d 개를 색인 중입니다.',
+                '%s 객체 %d 개를 색인 중입니다.',
             ),
 
             'Run these %d command(s):' => array(
@@ -485,7 +485,7 @@ final class PhabricatorKoreanTranslation
 
             'Install these %d PHP extension(s):' => array(
                 '다음 PHP 확장 기능을 설치하세요:',
-                '다음 php 확장 기능을 설치하세요:',
+                '다음 PHP 확장 기능을 설치하세요:',
             ),
 
             'The current Phabricator configuration has these %d value(s):' => array(
@@ -674,7 +674,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited reverted commit(s), added %s: %s; removed %s: %s.' =>
-                '%s가 되돌리는 커밋들을 편집했습니다, %3$s 추가됬고 %5$s 제거됬습니다.',
+                '%s가 되돌리는 커밋들을 편집했습니다, %3$s 추가됨 %5$s 제거됨.',
 
             '%s added %s reverted commit(s) for %s: %s.' => array(
                 array(
@@ -691,7 +691,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited reverted commit(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %2$s에서 되돌리는 커밋들을 편집했습니다, %4$s 추가됬고 %6$s 제거됬습니다.',
+                '%s가 %2$s에서 되돌리는 커밋들을 편집했습니다, %4$s 추가됨 %6$s 제거됨.',
 
             '%s added %s reverting commit(s): %s.' => array(
                 array(
@@ -708,7 +708,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited reverting commit(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 되돌리는 커밋을 수정했습니다. 추가 %3$s, 삭제: %5$s.',
+                '%s 님이 되돌리는 커밋을 수정했습니다. 추가됨: %3$s, 삭제됨: %5$s.',
 
             '%s added %s reverting commit(s) for %s: %s.' => array(
                 array(
@@ -725,10 +725,10 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited reverting commit(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 %s 의 되돌리는 커밋을 수정했습니다: 추가: %4$s; 삭제: %6$s.',
+                '%s 님이 %s 의 되돌리는 커밋을 수정했습니다: 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s changed project member(s), added %d: %s; removed %d: %s.' =>
-                '%s 님이 프로젝트 구성원 목록을 수정했습니다. 추가: %3$s, 제거: %5$s.',
+                '%s 님이 프로젝트 구성원 목록을 수정했습니다. 추가됨: %3$s, 제거됨: %5$s.',
 
             '%s added %d project member(s): %s.' => array(
                 array(
@@ -750,7 +750,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s changed project hashtag(s), added %d: %s; removed %d: %s.' =>
-                '%s 님이 프로젝트 해시태그를 바꾸었습니다. 추가: %3$s; 삭제: %5$s.',
+                '%s 님이 프로젝트 해시태그를 바꾸었습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %d project hashtag(s): %s.' => array(
                 array(
@@ -767,7 +767,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s changed %s hashtag(s), added %d: %s; removed %d: %s.' =>
-                '%s 님이 %s 의 해시태그를 바꾸었습니다. 추가: %4$s, 삭제: %6$s.',
+                '%s 님이 %s 의 해시태그를 바꾸었습니다. 추가됨: %4$s, 삭제됨: %6$s.',
 
             '%s added %d %s hashtag(s): %s.' => array(
                 array(
@@ -832,10 +832,10 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s updated JIRA issue(s): added %s %s; removed %d %s.' =>
-                '%s 님이 JIRA 문제를 업데이트했습니다: 추가 %3$s, 삭제: %5$s.',
+                '%s 님이 JIRA 문제를 업데이트했습니다: 추가됨: %3$s, 삭제됨: %5$s.',
 
             '%s edited %s task(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 작업을 편집했습니다. 추가: %4$s, 삭제: %6$s.',
+                '%s 님이 작업을 편집했습니다. 추가됨: %4$s, 삭제됨: %6$s.',
 
             '%s added %s task(s) to %s: %s.' => array(
                 array(
@@ -852,10 +852,10 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited %s task(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 %3$s 의 작업을 수정했습니다. 추가: %5$s;, 삭제: %7$s.',
+                '%s 님이 %3$s 의 작업을 수정했습니다. 추가됨: %5$s;, 삭제됨: %7$s.',
 
             '%s edited %s commit(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 커밋을 수정했습니다. 추가: %4$s, 삭제: %6$s.',
+                '%s 님이 커밋을 수정했습니다. 추가됨: %4$s, 삭제됨: %6$s.',
 
             '%s added %s commit(s) to %s: %s.' => array(
                 array(
@@ -872,7 +872,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited %s commit(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 %3$s 의 커밋을 수정했습니다. 추가: %5$s, 삭제 %7$s.',
+                '%s 님이 %3$s 의 커밋을 수정했습니다. 추가됨: %5$s, 삭제됨: %7$s.',
 
             '%s added %s revision(s): %s.' => array(
                 array(
@@ -889,7 +889,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited %s revision(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 리비전을 편집했습니다. 추가: %4$s, 삭제: %6$s.',
+                '%s 님이 리비전을 편집했습니다. 추가됨: %4$s, 삭제됨: %6$s.',
 
             '%s added %s revision(s) to %s: %s.' => array(
                 array(
@@ -906,10 +906,10 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited %s revision(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %3$s의 리버전들을 편집했습니다, %5$s가 추가됬고 %7$s가 제거됬습니다.',
+                '%s가 %3$s의 리버전들을 편집했습니다, %5$s 추가됨 %7$s 삭제됨.',
 
             '%s edited %s project(s), added %s: %s; removed %s: %s.' =>
-                '%s가 프로젝트들을 편집했습니다. %4$s가 추가됬고 %6$s가 제거됬습니다.',
+                '%s가 프로젝트들을 편집했습니다. %4$s가 추가됨 %6$s 삭제됨.',
 
             '%s added %s project(s) to %s: %s.' => array(
                 array(
@@ -926,7 +926,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited %s project(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %3$s에서 프로젝트를 편집했습니다, %5$s가 추가됬고 %7$s가 제거됬습니다.',
+                '%s가 %3$s에서 프로젝트를 편집했습니다, %5$s 추가됨 %7$s 제거됨.',
 
             '%s added %s panel(s): %s.' => array(
                 array(
@@ -943,7 +943,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited %s panel(s), added %s: %s; removed %s: %s.' =>
-                '%s가 패널들을 수정했습니다. %4$s가 추가됬고 %6$s가 제거됬습니다.',
+                '%s가 패널들을 수정했습니다. %4$s 추가됨 %6$s 제거됨.',
 
             '%s added %s dashboard(s): %s.' => array(
                 array(
