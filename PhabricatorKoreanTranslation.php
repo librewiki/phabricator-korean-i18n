@@ -25,9 +25,9 @@ final class PhabricatorKoreanTranslation
             ),
             '%s Task(s)' => array('작업', '작업들'),
 
-            '%s ERROR(S)' => array('에러', '에러들'),
-            '%d Error(s)' => array('%d 에러', '%d 에러들'),
-            '%d Warning(s)' => array('%d 오류', '%d 오류들'),
+            '%s ERROR(S)' => array('오류', '오류들'),
+            '%d Error(s)' => array('%d 오류', '%d 오류들'),
+            '%d Warning(s)' => array('%d 경고', '%d 경고들'),
             '%d Auto-Fix(es)' => array('%d Auto-Fix', '%d Auto-Fixes'),
             '%d Advice(s)' => array('%d 조언', '%d 개의 조언'),
             '%d Detail(s)' => array('%d 상세', '%d 상세'),
@@ -98,8 +98,8 @@ final class PhabricatorKoreanTranslation
                 '%d Objects Tracked',
             ),
             '%d Assigned Task(s)' => array(
-                '%d 할당된 태스크',
-                '%d 할당된 태스크들',
+                '%d 할당된 작업',
+                '%d 할당된 작업들',
             ),
 
             'Show %d Lint Message(s)' => array(
@@ -182,8 +182,8 @@ final class PhabricatorKoreanTranslation
 
             '%s merged %d task(s): %s.' => array(
                 array(
-                    '%s가 태스크를 병합했습니다.: %3$s.',
-                    '%s가 태스크들을 병합했습니다.: %3$s.',
+                    '%s가 작업을 병합했습니다.: %3$s.',
+                    '%s가 작업들을 병합했습니다.: %3$s.',
                 ),
             ),
 
@@ -210,71 +210,71 @@ final class PhabricatorKoreanTranslation
 
             '%s added %s blocking task(s): %s.' => array(
                 array(
-                    '%s가 태스크를 차단중입니다.: %3$s.',
-                    '%s가 태스크들을 차단중입니다.: %3$s.',
+                    '%s가 작업을 차단중입니다.: %3$s.',
+                    '%s가 작업들을 차단중입니다.: %3$s.',
                 ),
             ),
 
             '%s added %s blocked task(s): %s.' => array(
                 array(
-                    '%s가 태스크를 차단했습니다.: %3$s.',
-                    '%s가 태스크들을 차단했습니다.: %3$s.',
+                    '%s가 작업을 차단했습니다.: %3$s.',
+                    '%s가 작업들을 차단했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s blocking task(s): %s.' => array(
                 array(
-                    '%s가 차단중인 태스크를 삭제했습니다.: %3$s.',
-                    '%s가 차단중인 태스크들을 삭제했습니다.: %3$s.',
+                    '%s가 차단중인 작업을 삭제했습니다.: %3$s.',
+                    '%s가 차단중인 작업들을 삭제했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s blocked task(s): %s.' => array(
                 array(
-                    '%s가 차단된 태스크를 삭제했습니다.: %3$s.',
-                    '%s가 차단된 태스크들을 삭제했습니다.: %3$s.',
+                    '%s가 차단된 작업을 삭제했습니다.: %3$s.',
+                    '%s가 차단된 작업들을 삭제했습니다.: %3$s.',
                 ),
             ),
 
             '%s added %s blocking task(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s을(를) 위해 태스크들을 차단중입니다.: %4$s.',
-                    '%s가 %3$s을(를) 위해 태스크들을 차단중입니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 작업들을 차단중입니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 작업들을 차단중입니다.: %4$s.',
                 ),
             ),
 
             '%s added %s blocked task(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s을(를) 위해 태스크를 차단했습니다.: %4$s.',
-                    '%s가 %3$s을(를) 위하 태스크를 차단했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 작업을 차단했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위하 작업을 차단했습니다.: %4$s.',
                 ),
             ),
 
             '%s removed %s blocking task(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s을(를) 위해 차단중인 태스크를 삭제했습니다.: %4$s.',
-                    '%s가 %3$s을(를) 위해 차단중인 태스크를 삭제했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단중인 작업을 삭제했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단중인 작업을 삭제했습니다.: %4$s.',
                 ),
             ),
 
             '%s removed %s blocked task(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s을(를) 위해 차단된 태스크를 삭제했습니다.: %4$s.',
-                    '%s가 %3$s을(를) 위해 차단된 태스크들을 삭제했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단된 작업을 삭제했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단된 작업들을 삭제했습니다.: %4$s.',
                 ),
             ),
 
             '%s edited blocking task(s), added %s: %s; removed %s: %s.' =>
-                '%s가 차단중인 태스크를 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
+                '%s가 차단중인 작업을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s edited blocking task(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %s을(를) 위해 차단중인 태스크를 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
+                '%s가 %s을(를) 위해 차단중인 작업을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s edited blocked task(s), added %s: %s; removed %s: %s.' =>
-                '%s가 차단된 태스크를 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
+                '%s가 차단된 작업을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s edited blocked task(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %s을(를) 위해 차단된 태스크를 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
+                '%s가 %s을(를) 위해 차단된 작업을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s edited answer(s), added %s: %s; removed %d: %s.' =>
                 '%s가 답변을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
@@ -329,15 +329,15 @@ final class PhabricatorKoreanTranslation
 
             '%s added %s task(s): %s.' => array(
                 array(
-                    '%s 님이 태스크를 추가했습니다: %3$s.',
-                    '%s 님이 태스크를 추가했습니다: %3$s.',
+                    '%s 님이 작업을 추가했습니다: %3$s.',
+                    '%s 님이 작업을 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s task(s): %s.' => array(
                 array(
-                    '%s 님이 태스크를 삭제했습니다: %3$s.',
-                    '%s 님이 태스크들을 삭제했습니다: %3$s.',
+                    '%s 님이 작업을 삭제했습니다: %3$s.',
+                    '%s 님이 작업들을 삭제했습니다: %3$s.',
                 ),
             ),
 
@@ -835,24 +835,24 @@ final class PhabricatorKoreanTranslation
                 '%s 님이 JIRA 문제를 업데이트했습니다: 추가 %3$s, 삭제: %5$s.',
 
             '%s edited %s task(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 태스크를 편집했습니다. 추가: %4$s, 삭제: %6$s.',
+                '%s 님이 작업을 편집했습니다. 추가: %4$s, 삭제: %6$s.',
 
             '%s added %s task(s) to %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s 에 태스크를 추가했습니다: %4$s.',
-                    '%s 님이 %3$s 에 태스크를 추가했습니다: %4$s.',
+                    '%s 님이 %3$s 에 작업을 추가했습니다: %4$s.',
+                    '%s 님이 %3$s 에 작업을 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s task(s) from %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s 에서 태스크를 제거했습니다: %4$s.',
-                    '%s 님이 %3$s 에서 태스크를 제거했습니다: %4$s.',
+                    '%s 님이 %3$s 에서 작업을 제거했습니다: %4$s.',
+                    '%s 님이 %3$s 에서 작업을 제거했습니다: %4$s.',
                 ),
             ),
 
             '%s edited %s task(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 %3$s 의 태스크를 수정했습니다. 추가: %5$s;, 삭제: %7$s.',
+                '%s 님이 %3$s 의 작업을 수정했습니다. 추가: %5$s;, 삭제: %7$s.',
 
             '%s edited %s commit(s), added %s: %s; removed %s: %s.' =>
                 '%s 님이 커밋을 수정했습니다. 추가: %4$s, 삭제: %6$s.',
