@@ -306,7 +306,7 @@ final class PhabricatorKoreanTranslation
             '%s removed %s question(s): %s.' => array(
                 array(
                     '%s 님이 질문을 삭제했습니다: %3$s.',
-                    '%s 님이 질문들을  삭제했습니다: %3$s.',
+                    '%s 님이 질문들을 삭제했습니다: %3$s.',
                 ),
             ),
 
@@ -991,22 +991,22 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited edge(s), added %s: %s; removed %s: %s.' =>
-                '%s가 엣지들을 편집했습니다, %3$s가 추가됬고 %5$s가 제거됬습니다.',
+                '%s가 엣지들을 편집했습니다, %3$s가 추가되었고 %5$s가 제거되었습니다.',
 
             '%s edited %s edge(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %3$s에서 엣지들을 편집했습니다, %5$s가 추가됬고 %7$s가 제거됬습니다.',
+                '%s가 %3$s에서 엣지들을 편집했습니다, %5$s가 추가되었고 %7$s가 제거되었습니다.',
 
             '%s added %s member(s) for %s: %s.' => array(
                 array(
                     '%s가 %3$s에 구성원을 추가했습니다: %4$s.',
-                    '%s가 %3$s에 여러명의 구성원을 추가했습니다: %4$s.',
+                    '%s가 %3$s에 여러 명의 구성원을 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s member(s) for %s: %s.' => array(
                 array(
                     '%s가 %3$s에서 구성원을 뺐습니다: %4$s.',
-                    '%s가 %3$s에서 여러명의 구성원을 뺐습니다: %4$s.',
+                    '%s가 %3$s에서 여러 명의 구성원을 뺐습니다: %4$s.',
                 ),
             ),
 
@@ -1032,10 +1032,10 @@ final class PhabricatorKoreanTranslation
             'only users with a verified email address at one of these %s '.
             'allowed domain(s) will be able to register an account: %s' => array(
                 array(
-                    '이메일 도메인 화이트리스트가 구성됬으므로 (%s에서), '.
+                    '이메일 도메인 화이트리스트가 구성되었으므로 (%s에서), '.
                     '%3$s에서 확인된 이메일 주소를 가진 자만이'.
                     '계정을 만들 수 있습니다.',
-                    '이메일 도메인 화이트리스트가 구성됬으므로 (%s에서), '.
+                    '이메일 도메인 화이트리스트가 구성되었으므로 (%s에서), '.
                     '이 허용된 도메인 중에서 확인된 이메일 주소를 가진 자만이 '.
                     '계정을 만들 수 있습니다: %3$s',
                 ),
@@ -1101,8 +1101,8 @@ final class PhabricatorKoreanTranslation
 
             'Are you absolutely certain you want to destroy these %s '.
             'object(s)?' => array(
-                '이 객체를 파괴하려는것이 확실합니까?',
-                '이 객체를 파괴하려는것이 확실합니까?',
+                '이 객체를 파괴하려는 것이 확실합니까?',
+                '이 객체를 파괴하려는 것이 확실합니까?',
             ),
 
             '%s added %s owner(s): %s.' => array(
