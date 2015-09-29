@@ -122,8 +122,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Action(s) With No Effect' => array(
-                '아무효과가 없는 작업',
-                '아무효과가 없는 작업들',
+                '아무 효과가 없는 작업',
+                '아무 효과가 없는 작업들',
             ),
 
             'Some of your %d action(s) have no effect:' => array(
