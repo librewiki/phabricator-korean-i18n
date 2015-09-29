@@ -79,13 +79,13 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Review(s) Waiting on Others' => array(
-                '%d Review Waiting on Others',
-                '%d Reviews Waiting on Others',
+                '검토 %d개가 Others를 기다리고 있습니다',
+                '검토들 %d개가 Others를 기다리고 있습니다',
             ),
 
             '%d Active Review(s)' => array(
-                '%d Active Review',
-                '%d Active Reviews',
+                '활성화된 검토 %d개',
+                '활성화된 검토들 %d개',
             ),
 
             '%d Flagged Object(s)' => array(
@@ -127,8 +127,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'Some of your %d action(s) have no effect:' => array(
-                '당신의 작업중 하나가 효과가 없었습니다.:',
-                '당신의 작업중 일부가 효과가 없었습니다.:',
+                '당신의 작업 중 하나가 효과가 없었습니다.:',
+                '당신의 작업 중 일부가 효과가 없었습니다.:',
             ),
 
             'Apply remaining %d action(s)?' => array(
@@ -142,8 +142,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'The %d action(s) you are taking have no effect:' => array(
-                '당신이 할려고 하는 작업들은 효과가 없습니다.:',
-                '당신이 할려고 하는 작업들은 효과가 없습니다.:',
+                '당신이 하려는 작업은 효과가 없습니다.:',
+                '당신이 하려는 작업들은 효과가 없습니다.:',
             ),
 
             '%s edited member(s), added %d: %s; removed %d: %s.' =>
@@ -298,7 +298,7 @@ final class PhabricatorKoreanTranslation
 
             '%s added %s question(s): %s.' => array(
                 array(
-                    '%s 님이 질문을 추가했습니다:					%3$s.',
+                    '%s 님이 질문을 추가했습니다: %3$s.',
                     '%s 님이 질문을 추가했습니다: %3$s.',
                 ),
             ),
@@ -900,13 +900,13 @@ final class PhabricatorKoreanTranslation
 
             '%s removed %s revision(s) from %s: %s.' => array(
                 array(
-                    '%s가 %3$s에서 리버전을 제거했습니다: %4$s.',
-                    '%s가 %3$s에서 리버전들을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 리비전을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 리비전들을 제거했습니다: %4$s.',
                 ),
             ),
 
             '%s edited %s revision(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %3$s의 리버전들을 편집했습니다, %5$s 추가됨 %7$s 삭제됨.',
+                '%s가 %3$s의 리비전들을 편집했습니다, %5$s 추가됨 %7$s 삭제됨.',
 
             '%s edited %s project(s), added %s: %s; removed %s: %s.' =>
                 '%s가 프로젝트들을 편집했습니다. %4$s가 추가됨 %6$s 삭제됨.',
@@ -1144,12 +1144,12 @@ final class PhabricatorKoreanTranslation
                 'Atomizing %s files.',
             ),
             'Creating %s document(s).' => array(
-                'Creating %s document.',
-                'Creating %s documents.',
+                '문서 %s개를 만들고 있습니다.',
+                '문서 %s개를 만들고 있습니다.',
             ),
             'Deleting %s document(s).' => array(
-                'Deleting %s document.',
-                'Deleting %s documents.',
+                '문서 %s개를 지우고 있습니다.',
+                '문서 %s개를 지우고 있습니다.',
             ),
             'Found %s obsolete atom(s) in graph.' => array(
                 'Found %s obsolete atom in graph.',
@@ -1243,15 +1243,15 @@ final class PhabricatorKoreanTranslation
             ),
             '%s revoked %s recipient(s) for %s: %s.' => array(
                 array(
-                    '%s revoked %3$s from %4$s.',
-                    '%s revoked multiple recipients for %3$s: %4$s.',
+                    '%s가 %3$s의 recipient를 취소했습니다: %4$s.',
+                    '%s가 %3$s의 recipient들을 취소했습니다: %4$s.',
                 ),
             ),
 
             '%s revoked %s recipients(s): %s.' => array(
                 array(
-                    '%s revoked a recipient: %3$s.',
-                    '%s revoked multiple recipients: %3$s.',
+                    '%s가 recipient를 취소했습니다: %3$s.',
+                    '%s가 여러 recipient를 취소했습니다: %3$s.',
                 ),
             ),
             'Search' => '검색',
