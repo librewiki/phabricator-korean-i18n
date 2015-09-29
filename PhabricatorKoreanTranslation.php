@@ -74,8 +74,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Review(s) Need Attention' => array(
-                '%d개의 검토가 주의가 필요합니다.',
-                '%d개의 검토들이 주의가 필요합니다.',
+                '%d개의 검토가 관심이 필요합니다.',
+                '%d개의 검토들이 관심이 필요합니다.',
             ),
 
             '%d Review(s) Waiting on Others' => array(
@@ -484,8 +484,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'Install these %d PHP extension(s):' => array(
-                '다음 PHP 확장을 설치하세요:',
-                '다음 php 확장을 설치하세요:',
+                '다음 PHP 확장 기능을 설치하세요:',
+                '다음 php 확장 기능을 설치하세요:',
             ),
 
             'The current Phabricator configuration has these %d value(s):' => array(
