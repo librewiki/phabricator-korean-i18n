@@ -49,8 +49,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'There are %d raw fact(s) in storage.' => array(
-                'There is %d raw fact in storage.',
-                'There are %d raw facts in storage.',
+                ' 스토리지에 가공되지 않은 정보가 %d개 있습니다.',
+                ' 스토리지에 가공되지 않은 정보가 %d개 있습니다.',
             ),
 
             'There are %d aggregate fact(s) in storage.' => array(
@@ -69,8 +69,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Review(s) Blocking Others' => array(
-                '%d Review Blocking Others',
-                '%d Reviews Blocking Others',
+                '%d개의 리뷰가 다른사람을 방해하고 있습니다.',
+                '%d개의 리뷰가 다른사람을 방해하고 있습니다.',
             ),
 
             '%d Review(s) Need Attention' => array(
@@ -89,8 +89,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Flagged Object(s)' => array(
-                '%d Flagged Object',
-                '%d Flagged Objects',
+                '%d개의 관심 객체',
+                '%d개의 관심 객체',
             ),
 
             '%d Object(s) Tracked' => array(
@@ -112,8 +112,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'This is a binary file. It is %s byte(s) in length.' => array(
-                '이것은 바이너리 파일입니다. 크기는 I%s byte 입니다.',
-                '이것은 바이러니 파일입니다. 크기는 %s bytes 입니다..',
+                '이것은 바이너리 파일입니다. 크기는 %s byte 입니다.',
+                '이것은 바이너리 파일입니다. 크기는 %s bytes 입니다.',
             ),
 
             '%d Action(s) Have No Effect' => array(
@@ -485,7 +485,7 @@ final class PhabricatorKoreanTranslation
 
             'Install these %d PHP extension(s):' => array(
                 '다음 PHP 확장 기능을 설치하세요:',
-                '다음 PHP 확장 기능을 설치하세요:',
+                '다음 PHP 확장 기능들을 설치하세요:',
             ),
 
             'The current Phabricator configuration has these %d value(s):' => array(
@@ -616,29 +616,29 @@ final class PhabricatorKoreanTranslation
 
             '%s added %s dependent revision(s): %s.' => array(
                 array(
-                    '%s가 의존하는 리버전을 추가했습니다: %3$s.',
-                    '%s가 의존하는 리버전들을 추가했습니다: %3$s.',
+                    '%s가 의존하는 리비전을 추가했습니다: %3$s.',
+                    '%s가 의존하는 리비전들을 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s added %s dependent revision(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s에 의존하는 리버전을 추가했습니다: %4$s.',
-                    '%s가 %3$s에 의존하는 리버전들을 추가했습니다: %4$s.',
+                    '%s가 %3$s에 의존하는 리비전을 추가했습니다: %4$s.',
+                    '%s가 %3$s에 의존하는 리비전들을 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s dependent revision(s): %s.' => array(
                 array(
-                    '%s가 의존하는 리버전을 제거했습니다: %3$s.',
-                    '%s가 의존하는 리버전들을 제거했습니다: %3$s.',
+                    '%s가 의존하는 리비전을 제거했습니다: %3$s.',
+                    '%s가 의존하는 리비전들을 제거했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s dependent revision(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s에서 의존하는 리버전을 제거했습니다: %4$s.',
-                    '%s가 %3$s에서 의존하는 리버전들을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 의존하는 리비전을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 의존하는 리비전들을 제거했습니다: %4$s.',
                 ),
             ),
 
@@ -812,15 +812,15 @@ final class PhabricatorKoreanTranslation
 
             '%s removed %s JIRA issue(s): %s.' => array(
                 array(
-                    '%s 님이 JIRA 문제를 삭제했습니다: %3$s.',
-                    '%s 님이 JIRA 문제를 삭제했습니다: %3$s.',
+                    '%s 님이 JIRA 이슈를 삭제했습니다: %3$s.',
+                    '%s 님이 JIRA 이슈를 삭제했습니다: %3$s.',
                 ),
             ),
 
             '%s added %s JIRA issue(s): %s.' => array(
                 array(
-                    '%s 님이 JIRA 문제를 추가했습니다: %3$s.',
-                    '%s 님이 JIRA 문제를 추가했습니다: %3$s.',
+                    '%s 님이 JIRA 이슈를 추가했습니다: %3$s.',
+                    '%s 님이 JIRA 이슈를 추가했습니다: %3$s.',
                 ),
             ),
 
@@ -832,7 +832,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s updated JIRA issue(s): added %s %s; removed %d %s.' =>
-                '%s 님이 JIRA 문제를 업데이트했습니다: 추가됨: %3$s, 삭제됨: %5$s.',
+                '%s 님이 JIRA 이슈를 업데이트했습니다: 추가됨: %3$s, 삭제됨: %5$s.',
 
             '%s edited %s task(s), added %s: %s; removed %s: %s.' =>
                 '%s 님이 작업을 편집했습니다. 추가됨: %4$s, 삭제됨: %6$s.',
@@ -1132,16 +1132,16 @@ final class PhabricatorKoreanTranslation
                 '프로젝트에서 %s 파일을 검색',
             ),
             'Found %s unatomized, uncached file(s).' => array(
-                'Found %s unatomized, uncached file.',
-                'Found %s unatomized, uncached files.',
+                '%s unatomized, uncached 파일 검색됨.',
+                '%s unatomized, uncached 파일들 검색됨.',
             ),
             'Found %s file(s) to atomize.' => array(
-                'Found %s file to atomize.',
-                'Found %s files to atomize.',
+                '%s atomize할 파일 검색됨.',
+                '%s atomize할 파일들 검색됨.',
             ),
             'Atomizing %s file(s).' => array(
-                'Atomizing %s file.',
-                'Atomizing %s files.',
+                '%s 파일 atomizing.',
+                '%s 파일들 atomizing.',
             ),
             'Creating %s document(s).' => array(
                 '문서 %s개를 만들고 있습니다.',
@@ -1152,21 +1152,21 @@ final class PhabricatorKoreanTranslation
                 '문서 %s개를 지우고 있습니다.',
             ),
             'Found %s obsolete atom(s) in graph.' => array(
-                'Found %s obsolete atom in graph.',
-                'Found %s obsolete atoms in graph.',
+                '%s 그래프에서 오래된 원자 검색됨',
+                '%s 그래프에서 오래된 원자들 검색됨',
             ),
             'Found %s new atom(s) in graph.' => array(
-                'Found %s new atom in graph.',
-                'Found %s new atoms in graph.',
+                '%s 그래프에서 새로운 원자 검색됨',
+                '%s 그래프에서 새로운 원자 검색됨',
             ),
             'This call takes %s parameter(s), but only %s are documented.' => array(
                 array(
-                    'This call takes %s parameter, but only %s is documented.',
-                    'This call takes %s parameter, but only %s are documented.',
+                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 돠었습니다.',
+                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 돠었습니다.',
                 ),
                 array(
-                    'This call takes %s parameters, but only %s is documented.',
-                    'This call takes %s parameters, but only %s are documented.',
+                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 돠었습니다.',
+                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 돠었습니다.',
                 ),
             ),
 
