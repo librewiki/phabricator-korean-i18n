@@ -74,8 +74,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Review(s) Need Attention' => array(
-                '%d개의 검토가 관심이 필요합니다.',
-                '%d개의 검토들이 관심이 필요합니다.',
+                '%d개의 리뷰가 관심이 필요합니다.',
+                '%d개의 리뷰들이 관심이 필요합니다.',
             ),
 
             '%d Review(s) Waiting on Others' => array(
@@ -84,8 +84,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Active Review(s)' => array(
-                '활성화된 검토 %d개',
-                '활성화된 검토들 %d개',
+                '활성화된 리뷰 %d개',
+                '활성화된 리뷰들 %d개',
             ),
 
             '%d Flagged Object(s)' => array(
