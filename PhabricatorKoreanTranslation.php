@@ -40,12 +40,12 @@ final class PhabricatorKoreanTranslation
 
             '%s DIFF LINK(S)' => array('DIFF LINK', 'DIFF LINKS'),
             'You successfully created %d diff(s).' => array(
-                '성공적으로 %d개의 diff를 만들었습니다.',
-                '성공적으로 %d개의 diff를 만들었습니다.',
+                '성공적으로 diff %d개를 만들었습니다.',
+                '성공적으로 diff %d개를 만들었습니다.',
             ),
             'Diff creation failed; see body for %s error(s).' => array(
-                'Diff를 만드는데 실패했습니다. 에러를 확인하세요.',
-                'Diff를 만드는데 실패했습니다. 에러를 확인하세요.',
+                'Diff를 만드는 데 실패했습니다. 에러를 확인하세요.',
+                'Diff를 만드는 데 실패했습니다. 에러를 확인하세요.',
             ),
 
             'There are %d raw fact(s) in storage.' => array(
@@ -64,18 +64,18 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Problem Commit(s)' => array(
-                '%d개의 문제 있는 커밋',
-                '%d개의 문제 있는 커밋들',
+                '문제 있는 커밋 %d개',
+                '문제 있는 커밋 %d개',
             ),
 
             '%d Review(s) Blocking Others' => array(
-                '%d개의 리뷰가 다른사람을 방해하고 있습니다.',
-                '%d개의 리뷰가 다른사람을 방해하고 있습니다.',
+                '리뷰 %d개가 다른 사람을 방해하고 있습니다.',
+                '리뷰 %d개가 다른 사람을 방해하고 있습니다.',
             ),
 
             '%d Review(s) Need Attention' => array(
-                '%d개의 리뷰가 관심이 필요합니다.',
-                '%d개의 리뷰들이 관심이 필요합니다.',
+                '리뷰 %d개가 관심이 필요합니다.',
+                '리뷰 %d개가 관심이 필요합니다.',
             ),
 
             '%d Review(s) Waiting on Others' => array(
@@ -85,17 +85,17 @@ final class PhabricatorKoreanTranslation
 
             '%d Active Review(s)' => array(
                 '활성화된 리뷰 %d개',
-                '활성화된 리뷰들 %d개',
+                '활성화된 리뷰 %d개',
             ),
 
             '%d Flagged Object(s)' => array(
-                '%d개의 관심 객체',
-                '%d개의 관심 객체',
+                '관심 객체 %d개',
+                '관심 객체 %d개',
             ),
 
             '%d Object(s) Tracked' => array(
-                '%d개의 객체 추적됨',
-                '%d개의 객체들 추적됨',
+                '객체 %d개 추적됨',
+                '객체 %d개 추적됨',
             ),
             '%d Assigned Task(s)' => array(
                 '%d 할당된 작업',
@@ -103,12 +103,12 @@ final class PhabricatorKoreanTranslation
             ),
 
             'Show %d Lint Message(s)' => array(
-                '%d개의 린트 메세지 보이기',
-                '%d개의 린트 메세지들 보이기',
+                '린트 메시지 %d개 보이기',
+                '린트 메시지 %d개 보이기',
             ),
             'Hide %d Lint Message(s)' => array(
-                '%d개의 린트 메세지 숨기기',
-                '%d개의 린트 메세지들 숨기기',
+                '린트 메시지 %d개 숨기기',
+                '린트 메시지 %d개 숨기기',
             ),
 
             'This is a binary file. It is %s byte(s) in length.' => array(
@@ -127,8 +127,8 @@ final class PhabricatorKoreanTranslation
             ),
 
             'Some of your %d action(s) have no effect:' => array(
-                '당신의 작업 중 하나가 효과가 없었습니다.:',
-                '당신의 작업 중 일부가 효과가 없었습니다.:',
+                '당신의 작업 중 하나가 효과가 없었습니다:',
+                '당신의 작업 중 일부가 효과가 없었습니다:',
             ),
 
             'Apply remaining %d action(s)?' => array(
@@ -138,16 +138,16 @@ final class PhabricatorKoreanTranslation
 
             'Apply %d Other Action(s)' => array(
                 '남아있는 작업을 적용했습니다.',
-                '남아있는 작업들을 적용했습니다.',
+                '남아있는 작업을 적용했습니다.',
             ),
 
             'The %d action(s) you are taking have no effect:' => array(
                 '당신이 하려는 작업은 효과가 없습니다.:',
-                '당신이 하려는 작업들은 효과가 없습니다.:',
+                '당신이 하려는 작업은 효과가 없습니다.:',
             ),
 
             '%s edited member(s), added %d: %s; removed %d: %s.' =>
-                '%s이(가) 구성원 목록을 편집했습니다, 추가됨: %3$s; 제거됨: %5$s.',
+                '%s가 구성원 목록을 편집했습니다, 추가됨: %3$s; 제거됨: %5$s.',
 
             '%s added %s member(s): %s.' => array(
                 array(
@@ -169,98 +169,98 @@ final class PhabricatorKoreanTranslation
             '%s added %s project(s): %s.' => array(
                 array(
                     '%s가 프로젝트를 추가했습니다.: %3$s.',
-                    '%s가 프로젝트들을 추가했습니다.: %3$s.',
+                    '%s가 프로젝트를 추가했습니다.: %3$s.',
                 ),
             ),
 
             '%s removed %s project(s): %s.' => array(
                 array(
-                    '%s가 프로젝트를 삭제했습니다.: %3$s.',
-                    '%s가 프로젝트들을 삭제했습니다.: %3$s.',
+                    '%s가 프로젝트를 삭제했습니다: %3$s.',
+                    '%s가 프로젝트를 삭제했습니다: %3$s.',
                 ),
             ),
 
             '%s merged %d task(s): %s.' => array(
                 array(
-                    '%s가 작업을 병합했습니다.: %3$s.',
-                    '%s가 작업들을 병합했습니다.: %3$s.',
+                    '%s가 작업을 병합했습니다: %3$s.',
+                    '%s가 작업을 병합했습니다: %3$s.',
                 ),
             ),
 
             '%s merged %d task(s) %s into %s.' => array(
                 array(
                     '%s가 %3$s을(를) %4$s(으)로 병합했습니다.',
-                    '%s가 %3$s들을 %4$s(으)로 병합했습니다.',
+                    '%s가 %3$s을(를) %4$s(으)로 병합했습니다.',
                 ),
             ),
 
             '%s added %s voting user(s): %s.' => array(
                 array(
-                    '%s가 투표 사용자를 추가했습니다.: %3$s.',
-                    '%s가 투표 사용자들을 추가했습니다.: %3$s.',
+                    '%s가 투표 사용자를 추가했습니다: %3$s.',
+                    '%s가 투표 사용자를 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s voting user(s): %s.' => array(
                 array(
-                    '%s가 투표 사용자를 삭제했습니다.: %3$s.',
-                    '%s가 투표 사용자들을 삭제했습니다.: %3$s.',
+                    '%s가 투표 사용자를 삭제했습니다: %3$s.',
+                    '%s가 투표 사용자를 삭제했습니다: %3$s.',
                 ),
             ),
 
             '%s added %s blocking task(s): %s.' => array(
                 array(
-                    '%s가 작업을 차단중입니다.: %3$s.',
-                    '%s가 작업들을 차단중입니다.: %3$s.',
+                    '%s가 작업을 차단 중입니다: %3$s.',
+                    '%s가 작업을 차단 중입니다: %3$s.',
                 ),
             ),
 
             '%s added %s blocked task(s): %s.' => array(
                 array(
-                    '%s가 작업을 차단했습니다.: %3$s.',
-                    '%s가 작업들을 차단했습니다.: %3$s.',
+                    '%s가 작업을 차단했습니다: %3$s.',
+                    '%s가 작업을 차단했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s blocking task(s): %s.' => array(
                 array(
-                    '%s가 차단중인 작업을 삭제했습니다.: %3$s.',
-                    '%s가 차단중인 작업들을 삭제했습니다.: %3$s.',
+                    '%s가 차단 중인 작업을 삭제했습니다: %3$s.',
+                    '%s가 차단 중인 작업을 삭제했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s blocked task(s): %s.' => array(
                 array(
-                    '%s가 차단된 작업을 삭제했습니다.: %3$s.',
-                    '%s가 차단된 작업들을 삭제했습니다.: %3$s.',
+                    '%s가 차단된 작업을 삭제했습니다: %3$s.',
+                    '%s가 차단된 작업을 삭제했습니다: %3$s.',
                 ),
             ),
 
             '%s added %s blocking task(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s을(를) 위해 작업들을 차단중입니다.: %4$s.',
-                    '%s가 %3$s을(를) 위해 작업들을 차단중입니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 작업을 차단 중입니다: %4$s.',
+                    '%s가 %3$s을(를) 위해 작업을 차단 중입니다: %4$s.',
                 ),
             ),
 
             '%s added %s blocked task(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s을(를) 위해 작업을 차단했습니다.: %4$s.',
-                    '%s가 %3$s을(를) 위해 작업을 차단했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 작업을 차단했습니다: %4$s.',
+                    '%s가 %3$s을(를) 위해 작업을 차단했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s blocking task(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s을(를) 위해 차단중인 작업을 삭제했습니다.: %4$s.',
-                    '%s가 %3$s을(를) 위해 차단중인 작업을 삭제했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단 중인 작업을 삭제했습니다: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단 중인 작업을 삭제했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s blocked task(s) for %s: %s.' => array(
                 array(
-                    '%s가 %3$s을(를) 위해 차단된 작업을 삭제했습니다.: %4$s.',
-                    '%s가 %3$s을(를) 위해 차단된 작업들을 삭제했습니다.: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단된 작업을 삭제했습니다: %4$s.',
+                    '%s가 %3$s을(를) 위해 차단된 작업을 삭제했습니다: %4$s.',
                 ),
             ),
 
@@ -268,7 +268,7 @@ final class PhabricatorKoreanTranslation
                 '%s가 차단중인 작업을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s edited blocking task(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %s을(를) 위해 차단중인 작업을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
+                '%s가 %s을(를) 위해 차단 중인 작업을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s edited blocked task(s), added %s: %s; removed %s: %s.' =>
                 '%s가 차단된 작업을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
@@ -281,15 +281,15 @@ final class PhabricatorKoreanTranslation
 
             '%s added %s answer(s): %s.' => array(
                 array(
-                    '%s가 답변을 추가했습니다.: %3$s.',
-                    '%s가 답변들을 추가했습니다.: %3$s.',
+                    '%s가 답변을 추가했습니다: %3$s.',
+                    '%s가 답변을 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s answer(s): %s.' => array(
                 array(
-                    '%s가 답변을 삭제했습니다.: %3$s.',
-                    '%s가 답변들을 삭제했습니다.: %3$s.',
+                    '%s가 답변을 삭제했습니다: %3$s.',
+                    '%s가 답변을 삭제했습니다: %3$s.',
                 ),
             ),
 
@@ -401,7 +401,7 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%s edited subscriber(s), added %d: %s; removed %d: %s.' =>
-                '님이 구독자 목록을 수정했습니다. 추가됨: %3$s; 제거됨: %5$s.',
+                '%s 님이 구독자 목록을 수정했습니다. 추가됨: %3$s; 제거됨: %5$s.',
 
             '%s added %d subscriber(s): %s.' => array(
                 array(
@@ -480,12 +480,12 @@ final class PhabricatorKoreanTranslation
 
             'Run these %d command(s):' => array(
                 '다음 명령어를 실행하세요:',
-                '다음 명령어들을 실행하세요:',
+                '다음 명령어를 실행하세요:',
             ),
 
             'Install these %d PHP extension(s):' => array(
                 '다음 PHP 확장 기능을 설치하세요:',
-                '다음 PHP 확장 기능들을 설치하세요:',
+                '다음 PHP 확장 기능을 설치하세요:',
             ),
 
             'The current Phabricator configuration has these %d value(s):' => array(
@@ -526,7 +526,7 @@ final class PhabricatorKoreanTranslation
 
             'You have %d unresolved setup issue(s)...' => array(
                 '풀리지 않은 설정 이슈가 있습니다...',
-                '%d개의 풀리지 않은 설정 이슈들이 있습니다...',
+                '%d개의 풀리지 않은 설정 이슈가 있습니다...',
             ),
 
             '%s added %d inline comment(s).' => array(
@@ -536,9 +536,9 @@ final class PhabricatorKoreanTranslation
                 ),
             ),
 
-            '%d comment(s)' => array('%d개의 의견', '%d개의 의견들'),
-            '%d rejection(s)' => array('%d개의 거부', '%d개의 거부들'),
-            '%d update(s)' => array('%d개의 수정사항', '%d개의 수정사항들'),
+            '%d comment(s)' => array('의견 %d개', '의견 %d개'),
+            '%d rejection(s)' => array('거부 %d개', '거부 %d개'),
+            '%d update(s)' => array('수정사항 %d개', '수정사항 %d개'),
 
             'This configuration value is defined in these %d '.
             'configuration source(s): %s.' => array(
@@ -610,54 +610,54 @@ final class PhabricatorKoreanTranslation
             '%s removed %s dependencie(s) for %s: %s.' => array(
                 array(
                     '%s가 %3$s에서 의존성을 제거했습니다: %4$s.',
-                    '%s가 %3$s에서 의존성들을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 의존성을 제거했습니다: %4$s.',
                 ),
             ),
 
             '%s added %s dependent revision(s): %s.' => array(
                 array(
                     '%s가 의존하는 리비전을 추가했습니다: %3$s.',
-                    '%s가 의존하는 리비전들을 추가했습니다: %3$s.',
+                    '%s가 의존하는 리비전을 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s added %s dependent revision(s) for %s: %s.' => array(
                 array(
                     '%s가 %3$s에 의존하는 리비전을 추가했습니다: %4$s.',
-                    '%s가 %3$s에 의존하는 리비전들을 추가했습니다: %4$s.',
+                    '%s가 %3$s에 의존하는 리비전을 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s dependent revision(s): %s.' => array(
                 array(
                     '%s가 의존하는 리비전을 제거했습니다: %3$s.',
-                    '%s가 의존하는 리비전들을 제거했습니다: %3$s.',
+                    '%s가 의존하는 리비전을 제거했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s dependent revision(s) for %s: %s.' => array(
                 array(
                     '%s가 %3$s에서 의존하는 리비전을 제거했습니다: %4$s.',
-                    '%s가 %3$s에서 의존하는 리비전들을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 의존하는 리비전을 제거했습니다: %4$s.',
                 ),
             ),
 
             '%s added %s commit(s): %s.' => array(
                 array(
                     '%s가 커밋을 추가했습니다: %3$s.',
-                    '%s가 커밋들을 추가했습니다: %3$s.',
+                    '%s가 커밋을 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s commit(s): %s.' => array(
                 array(
                     '%s가 커밋을 제거했습니다: %3$s.',
-                    '%s가 커밋들을 제거했습니다: %3$s.',
+                    '%s가 커밋을 제거했습니다: %3$s.',
                 ),
             ),
 
             '%s edited commit(s), added %s: %s; removed %s: %s.' =>
-                '%s가 커밋들을 편집했습니다, %3$s 추가됬고 %5$s 제거됬습니다.',
+                '%s가 커밋을 편집했습니다. 추가됨: %3$s, 제거됨: %5$s.',
 
             '%s added %s reverted commit(s): %s.' => array(
                 array(
@@ -679,19 +679,19 @@ final class PhabricatorKoreanTranslation
             '%s added %s reverted commit(s) for %s: %s.' => array(
                 array(
                     '%s가 %3$s에 되돌리는 커밋을 추가했습니다: %4$s.',
-                    '%s가 %3$s에 되돌리는 커밋들을 추가했습니다: %4$s.',
+                    '%s가 %3$s에 되돌리는 커밋을 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s reverted commit(s) for %s: %s.' => array(
                 array(
                     '%s가 %3$s에서 되돌리는 커밋을 제거했습니다: %4$s.',
-                    '%s가 %3$s에서 되돌리는 커밋들을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 되돌리는 커밋을 제거했습니다: %4$s.',
                 ),
             ),
 
             '%s edited reverted commit(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %2$s에서 되돌리는 커밋들을 편집했습니다, %4$s 추가됨 %6$s 제거됨.',
+                '%s가 %2$s에서 되돌리는 커밋을 편집했습니다, %4$s 추가됨 %6$s 제거됨.',
 
             '%s added %s reverting commit(s): %s.' => array(
                 array(
@@ -901,27 +901,27 @@ final class PhabricatorKoreanTranslation
             '%s removed %s revision(s) from %s: %s.' => array(
                 array(
                     '%s가 %3$s에서 리비전을 제거했습니다: %4$s.',
-                    '%s가 %3$s에서 리비전들을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 리비전을 제거했습니다: %4$s.',
                 ),
             ),
 
             '%s edited %s revision(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %3$s의 리비전들을 편집했습니다, %5$s 추가됨 %7$s 삭제됨.',
+                '%s가 %3$s의 리비전을 편집했습니다, %5$s 추가됨 %7$s 삭제됨.',
 
             '%s edited %s project(s), added %s: %s; removed %s: %s.' =>
-                '%s가 프로젝트들을 편집했습니다. %4$s가 추가됨 %6$s 삭제됨.',
+                '%s가 프로젝트를 편집했습니다. %4$s가 추가됨 %6$s 삭제됨.',
 
             '%s added %s project(s) to %s: %s.' => array(
                 array(
                     '%s가 %3$s에 프로젝트를 추가했습니다: %4$s.',
-                    '%s가 %3$s에 프로젝트들을 추가했습니다: %4$s.',
+                    '%s가 %3$s에 프로젝트를 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s project(s) from %s: %s.' => array(
                 array(
                     '%s가 %3$s에서 프로젝트를 제거했습니다: %4$s.',
-                    '%s가 %3$s에서 프로젝트들을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 프로젝트를 제거했습니다: %4$s.',
                 ),
             ),
 
@@ -931,70 +931,70 @@ final class PhabricatorKoreanTranslation
             '%s added %s panel(s): %s.' => array(
                 array(
                     '%s가 패널을 추가했습니다: %3$s.',
-                    '%s가 패널들을 추가했습니다: %3$s.',
+                    '%s가 패널을 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s panel(s): %s.' => array(
                 array(
                     '%s가 패널을 제거했습니다: %3$s.',
-                    '%s가 패널들을 제거했습니다: %3$s.',
+                    '%s가 패널을 제거했습니다: %3$s.',
                 ),
             ),
 
             '%s edited %s panel(s), added %s: %s; removed %s: %s.' =>
-                '%s가 패널들을 수정했습니다. %4$s 추가됨 %6$s 제거됨.',
+                '%s가 패널을 수정했습니다. %4$s 추가됨 %6$s 제거됨.',
 
             '%s added %s dashboard(s): %s.' => array(
                 array(
                     '%s가 대시보드를 추가했습니다: %3$s.',
-                    '%s가 대시보드들을 추가했습니다: %3$s.',
+                    '%s가 대시보드를 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s dashboard(s): %s.' => array(
                 array(
                     '%s가 대시보드를 제거했습니다: %3$s.',
-                    '%s가 대시보드들을 제거했습니다: %3$s.',
+                    '%s가 대시보드를 제거했습니다: %3$s.',
                 ),
             ),
 
             '%s edited %s dashboard(s), added %s: %s; removed %s: %s.' =>
-                '%s가 대시보드를 편집했습니다, %4$s가 추가됬고 %6$s가 제거됬습니다.',
+                '%s가 대시보드를 편집했습니다. 추가됨: %4$s, 제거됨: %6$s.',
 
             '%s added %s edge(s): %s.' => array(
                 array(
                     '%s가 엣지를 추가했습니다: %3$s.',
-                    '%s가 엣지들을 추가했습니다: %3$s.',
+                    '%s가 엣지를 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s added %s edge(s) to %s: %s.' => array(
                 array(
                     '%s가 %3$s에 엣지를 추가했습니다: %4$s.',
-                    '%s가 %3$s에 엣지들을 추가했습니다: %4$s.',
+                    '%s가 %3$s에 엣지를 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s edge(s): %s.' => array(
                 array(
                     '%s가 엣지를 제거했습니다: %3$s.',
-                    '%s가 엣지들을 제거했습니다: %3$s.',
+                    '%s가 엣지를 제거했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s edge(s) from %s: %s.' => array(
                 array(
                     '%s가 %3$s에서 엣지를 제거했습니다: %4$s.',
-                    '%s가 %3$s에서 엣지들을 제거했습니다: %4$s.',
+                    '%s가 %3$s에서 엣지를 제거했습니다: %4$s.',
                 ),
             ),
 
             '%s edited edge(s), added %s: %s; removed %s: %s.' =>
-                '%s가 엣지들을 편집했습니다, %3$s가 추가되었고 %5$s가 제거되었습니다.',
+                '%s가 엣지들을 편집했습니다. 추가됨: %3$s, 제거됨: %5$s.',
 
             '%s edited %s edge(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %3$s에서 엣지들을 편집했습니다, %5$s가 추가되었고 %7$s가 제거되었습니다.',
+                '%s가 %3$s에서 엣지들을 편집했습니다. 추가됨: %5$s, 제거됨: %7$s.',
 
             '%s added %s member(s) for %s: %s.' => array(
                 array(
@@ -1020,7 +1020,7 @@ final class PhabricatorKoreanTranslation
 
             'You have %d unpaid invoice(s).' => array(
                 '아직 결제하지 않은 요금이 있습니다.',
-                '아직 결제하지 않은 요금들이 있습니다.',
+                '아직 결제하지 않은 요금이 있습니다.',
             ),
 
             'The configurations differ in the following %s way(s):' => array(
@@ -1207,14 +1207,14 @@ final class PhabricatorKoreanTranslation
             ),
             '%s edited badge(s) for %s, added %s: %s; revoked %s: %s.' => array(
                 array(
-                    '%s가 %s의 배지를 수정하였습니다, %s 추가 : %s; %s 취소 : %s.',
-                    '%s가 %s의 배지를 수정하였습니다, %s 추가 : %s; %s 취소 : %s.',
+                    '%s가 %s의 배지를 수정했습니다, %s 추가 : %s; %s 취소 : %s.',
+                    '%s가 %s의 배지를 수정했습니다, %s 추가 : %s; %s 취소 : %s.',
                 ),
             ),
             '%s edited badge(s), added %s: %s; revoked %s: %s.' => array(
                 array(
-                    '%s가 배지를 수정하였습니다, %s 추가 : %s; %s 취소 : %s.',
-                    '%s가 배지를 수정하였습니다, %s 추가 : %s; %s 취소 : %s.',
+                    '%s가 배지를 수정했습니다, %s 추가 : %s; %s 취소 : %s.',
+                    '%s가 배지를 수정했습니다, %s 추가 : %s; %s 취소 : %s.',
                 ),
             ),
             '%s edited recipient(s) for %s, awarded %s: %s; revoked %s: %s.' => array(
@@ -1232,13 +1232,13 @@ final class PhabricatorKoreanTranslation
             '%s revoked %s badge(s) for %s: %s.' => array(
                 array(
                     '%s가 %3$s의 배지를 취소했습니다 : %4$s.',
-                    '%s가 %3$s의 배지들을 취소했습니다 : %4$s.',
+                    '%s가 %3$s의 배지를 취소했습니다 : %4$s.',
                 ),
             ),
             '%s revoked %s badge(s): %s.' => array(
                 array(
                     '%s가 배지를 취소했습니다 : %3$s.',
-                    '%s가 배지들을 취소했습니다: %3$s.',
+                    '%s가 배지를 취소했습니다: %3$s.',
                 ),
             ),
             '%s revoked %s recipient(s) for %s: %s.' => array(
