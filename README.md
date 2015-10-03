@@ -19,9 +19,9 @@
 | member           	| 구성원        	|
 | Audit            	| 검토          	|
 | Review           	| 리뷰          	|
-| Lint Message     	| 린트 메세지   	|
+| Lint Message     	| 린트 메시지   	|
 | Task             	| 작업          	|
-| Action           	| 작업          	|
+| Action           	| 행위          	|
 | user             	| 사용자        	|
 | reviewer         	| 검토자        	|
 | subscriber       	| 구독자        	|
