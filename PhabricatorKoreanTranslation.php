@@ -1,9 +1,11 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: seyriz
- * Date: 15. 8. 3.
- * Time: 오전 12:45
+ * Phabricator translations into Korean
+ * This file is not complete and upstream may have added a string
+ * which is not included in this translation. In such case, please
+ * report the missing strings to us, for the all's benefit.
+ * Initial Authors: seyriz, revi, LiteHell, Intrainos, Hwangjy9
+ * Contact: https:/issue.librewiki.net/maniphest/task/create/
  */
 
 final class PhabricatorKoreanTranslation
