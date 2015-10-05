@@ -5,7 +5,7 @@
  * which is not included in this translation. In such case, please
  * report the missing strings to us, for the all's benefit.
  * Initial Authors: seyriz, revi, LiteHell, Intrainos, Hwangjy9
- * Contact: https:/issue.librewiki.net/maniphest/task/create/
+ * Contact: https://issue.librewiki.net/maniphest/task/create/
  */
 
 final class PhabricatorKoreanTranslation
@@ -23,7 +23,7 @@ final class PhabricatorKoreanTranslation
             ),
             'These %d configuration value(s) are related:' => array(
                 '이 설정값은 다음과 관계있습니다 :',
-                '이 설정값들은 다음과 관계있습니다 :',
+                '이 설정값은 다음과 관계있습니다 :',
             ),
             '%s Task(s)' => array('작업', '작업들'),
 
@@ -119,33 +119,33 @@ final class PhabricatorKoreanTranslation
             ),
 
             '%d Action(s) Have No Effect' => array(
-                '작업은 효과가 없었습니다.',
-                '작업들은 효과가 없었습니다.',
+                '행위는 효과가 없었습니다.',
+                '행위는 효과가 없었습니다.',
             ),
 
             '%d Action(s) With No Effect' => array(
-                '아무 효과가 없는 작업',
-                '아무 효과가 없는 작업들',
+                '아무 효과가 없는 행위',
+                '아무 효과가 없는 행위',
             ),
 
             'Some of your %d action(s) have no effect:' => array(
-                '당신의 작업 중 하나가 효과가 없었습니다:',
-                '당신의 작업 중 일부가 효과가 없었습니다:',
+                '당신의 행위 중 하나가 효과가 없었습니다:',
+                '당신의 행위 중 일부가 효과가 없었습니다:',
             ),
 
             'Apply remaining %d action(s)?' => array(
-                '남아있는 작업을 적용할까요?',
-                '남아있는 작업들을 적용할까요?',
+                '남아있는 행위를 적용할까요?',
+                '남아있는 행위를 적용할까요?',
             ),
 
             'Apply %d Other Action(s)' => array(
-                '남아있는 작업을 적용했습니다.',
-                '남아있는 작업을 적용했습니다.',
+                '남아있는 행위를 적용했습니다.',
+                '남아있는 행위를 적용했습니다.',
             ),
 
             'The %d action(s) you are taking have no effect:' => array(
-                '당신이 하려는 작업은 효과가 없습니다.:',
-                '당신이 하려는 작업은 효과가 없습니다.:',
+                '당신이 하려는 행위는 효과가 없습니다:',
+                '당신이 하려는 행위는 효과가 없습니다:',
             ),
 
             '%s edited member(s), added %d: %s; removed %d: %s.' =>
