@@ -8,8 +8,7 @@
  * Contact: https://issue.librewiki.net/maniphest/task/create/
  */
 
-final class PhabricatorKoreanTranslation
-    extends PhutilTranslation {
+final class PhabricatorKoreanTranslation extends PhutilTranslation {
 
     public function getLocaleCode() {
         return 'ko_KR';
@@ -19,7 +18,7 @@ final class PhabricatorKoreanTranslation
         return array(
             'No daemon(s) with id(s) "%s" exist!' => array(
                 'id:%s인 데몬이 존재하지 않습니다',
-                'id:%s인 데몬들이 존재하지 않습니다',
+                'id:%s인 데몬이 존재하지 않습니다',
             ),
             'These %d configuration value(s) are related:' => array(
                 '이 설정값은 다음과 관계있습니다 :',
@@ -73,7 +72,7 @@ final class PhabricatorKoreanTranslation
             '%d Review(s) Blocking Others' => array(
                 '리뷰 %d개가 다른 사람을 방해하고 있습니다.',
                 '리뷰 %d개가 다른 사람을 방해하고 있습니다.',
-            ),
+            ), #TODO: Blocking here means preventing merge of commits
 
             '%d Review(s) Need Attention' => array(
                 '리뷰 %d개가 관심이 필요합니다.',
@@ -1245,15 +1244,15 @@ final class PhabricatorKoreanTranslation
             ),
             '%s revoked %s recipient(s) for %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s의 recipient를 취소했습니다: %4$s.',
-                    '%s 님이 %3$s의 recipient들을 취소했습니다: %4$s.',
+                    '%s 님이 %3$s의 수여자를 취소했습니다: %4$s.',
+                    '%s 님이 %3$s의 수여자들을 취소했습니다: %4$s.',
                 ),
             ),
 
             '%s revoked %s recipients(s): %s.' => array(
                 array(
-                    '%s 님이 recipient를 취소했습니다: %3$s.',
-                    '%s 님이 여러 recipient를 취소했습니다: %3$s.',
+                    '%s 님이 수여자를 취소했습니다: %3$s.',
+                    '%s 님이 여러 수여자를 취소했습니다: %3$s.',
                 ),
             ),
             'Search' => '검색',
@@ -1276,7 +1275,7 @@ final class PhabricatorKoreanTranslation
             'Execute Query' => '쿼리 실행',
             'Wiki' => '위키',
             'Get Organized' => 'Get Organized',
-            'Explore More Applications' => '더 많은 앱을 보기',
+            'Explore More Applications' => '더 많은 앱 보기',
             'Prototype' => '프로토타입',
             'Continue' => '계속',
             'Countdown to Events' => '이벤트 카운트다운',
