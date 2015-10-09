@@ -21,14 +21,14 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
                 'id:%s인 데몬이 존재하지 않습니다',
             ),
             'These %d configuration value(s) are related:' => array(
-                '이 설정값은 다음과 관계있습니다 :',
-                '이 설정값은 다음과 관계있습니다 :',
+                '이 설정값은 다음과 관계있습니다:',
+                '이 설정값은 다음과 관계있습니다:',
             ),
             '%s Task(s)' => array('작업', '작업들'),
 
             '%s ERROR(S)' => array('오류', '오류들'),
-            '%d Error(s)' => array('%d 오류', '%d 오류들'),
-            '%d Warning(s)' => array('%d 경고', '%d 경고들'),
+            '%d Error(s)' => array('%d 오류', '%d 오류'),
+            '%d Warning(s)' => array('%d 경고', '%d 경고'),
             '%d Auto-Fix(es)' => array('%d Auto-Fix', '%d Auto-Fixes'),
             '%d Advice(s)' => array('%d 조언', '%d 개의 조언'),
             '%d Detail(s)' => array('%d 상세', '%d 상세'),
@@ -36,17 +36,17 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '(%d line(s))' => array('(%d 줄)', '(%d 줄)'),
 
             '%d line(s)' => array('%d 줄', '%d 줄'),
-            '%d path(s)' => array('%d 위치', '%d 위치들'),
-            '%d diff(s)' => array('%d 다른점', '%d 다른점들'),
+            '%d path(s)' => array('%d 위치', '%d 위치'),
+            '%d diff(s)' => array('%d 다른점', '%d 다른점'),
 
             '%s DIFF LINK(S)' => array('DIFF LINK', 'DIFF LINKS'),
             'You successfully created %d diff(s).' => array(
-                '성공적으로 diff %d개를 만들었습니다.',
-                '성공적으로 diff %d개를 만들었습니다.',
+                '성공적으로 다른점 %d개를 만들었습니다.',
+                '성공적으로 다른점 %d개를 만들었습니다.',
             ),
             'Diff creation failed; see body for %s error(s).' => array(
-                'Diff를 만드는 데 실패했습니다. 에러를 확인하세요.',
-                'Diff를 만드는 데 실패했습니다. 에러를 확인하세요.',
+                '다른점을 만드는 데 실패했습니다. 에러를 확인하세요.',
+                '다른점을 만드는 데 실패했습니다. 에러를 확인하세요.',
             ),
 
             'There are %d raw fact(s) in storage.' => array(
@@ -75,8 +75,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ), #TODO: Blocking here means preventing merge of commits
 
             '%d Review(s) Need Attention' => array(
-                '리뷰 %d개가 관심이 필요합니다.',
-                '리뷰 %d개가 관심이 필요합니다.',
+                '리뷰 %d개에 관심이 필요합니다.',
+                '리뷰 %d개에 관심이 필요합니다.',
             ),
 
             '%d Review(s) Waiting on Others' => array(
@@ -99,8 +99,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
                 '객체 %d개 추적됨',
             ),
             '%d Assigned Task(s)' => array(
-                '%d 할당된 작업',
-                '%d 할당된 작업들',
+                '할당된 작업 %d개',
+                '할당된 작업 %d개',
             ),
 
             'Show %d Lint Message(s)' => array(
@@ -118,8 +118,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%d Action(s) Have No Effect' => array(
-                '행위는 효과가 없었습니다.',
-                '행위는 효과가 없었습니다.',
+                '행위는 효과가 없습니다.',
+                '행위는 효과가 없습니다.',
             ),
 
             '%d Action(s) With No Effect' => array(
@@ -148,29 +148,29 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s edited member(s), added %d: %s; removed %d: %s.' =>
-                '%s 님이 구성원 목록을 편집했습니다, 추가됨: %3$s; 제거됨: %5$s.',
+                '%s 님이 구성원 목록을 편집했습니다. 추가됨: %3$s; 제거됨: %5$s.',
 
             '%s added %s member(s): %s.' => array(
                 array(
-                    '%s 님이 구성원으로 추가했습니다.: %3$s.',
-                    '%s 님이 구성원으로 추가했습니다.: %3$s.',
+                    '%s 님이 구성원으로 추가했습니다: %3$s.',
+                    '%s 님이 구성원으로 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s member(s): %s.' => array(
                 array(
-                    '%s 님이 구성원을 삭제했습니다.: %3$s.',
-                    '%s 님이 구성원을 삭제했습니다.: %3$s.',
+                    '%s 님이 구성원을 삭제했습니다: %3$s.',
+                    '%s 님이 구성원을 삭제했습니다: %3$s.',
                 ),
             ),
 
             '%s edited project(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 프로젝트를 편집했습니다, 추가됨: %3$s; 삭제됨: %5$s.',
+                '%s 님이 프로젝트를 편집했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %s project(s): %s.' => array(
                 array(
-                    '%s 님이 프로젝트를 추가했습니다.: %3$s.',
-                    '%s 님이 프로젝트를 추가했습니다.: %3$s.',
+                    '%s 님이 프로젝트를 추가했습니다: %3$s.',
+                    '%s 님이 프로젝트를 추가했습니다: %3$s.',
                 ),
             ),
 
@@ -266,7 +266,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s edited blocking task(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 차단중인 작업을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
+                '%s 님이 차단 중인 작업을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s edited blocking task(s) for %s, added %s: %s; removed %s: %s.' =>
                 '%s 님이 %s을(를) 위해 차단 중인 작업을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
@@ -338,7 +338,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '%s removed %s task(s): %s.' => array(
                 array(
                     '%s 님이 작업을 삭제했습니다: %3$s.',
-                    '%s 님이 작업들을 삭제했습니다: %3$s.',
+                    '%s 님이 작업을 삭제했습니다: %3$s.',
                 ),
             ),
 
@@ -348,14 +348,14 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '%s added %s file(s): %s.' => array(
                 array(
                     '%s 님이 파일을 추가했습니다: %3$s.',
-                    '%s 님이 파일들을 추가했습니다: %3$s.',
+                    '%s 님이 파일을 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s file(s): %s.' => array(
                 array(
                     '%s 님이 파일을 삭제했습니다: %3$s.',
-                    '%s 님이 파일들을 삭제했습니다: %3$s.',
+                    '%s 님이 파일을 삭제했습니다: %3$s.',
                 ),
             ),
 
@@ -377,7 +377,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s edited %s reviewer(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 검토자 목록을 수정했습니다, 추가됨: %4$s; 삭제됨: %6$s.',
+                '%s 님이 검토자 목록을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s edited %s reviewer(s) for %s, added %s: %s; removed %s: %s.' =>
                 '%s 님이 "%3$s" 사유로 검토자 목록을 수정했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
@@ -533,7 +533,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '%s added %d inline comment(s).' => array(
                 array(
                     '%s 님이 인라인 의견을 추가했습니다.',
-                    '%s 님이 인라인 의견들을 추가했습니다.',
+                    '%s 님이 인라인 의견 %d개를 추가했습니다.',
                 ),
             ),
 
@@ -550,8 +550,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%d Open Pull Request(s)' => array(
-                '%d개의 열린 Pull Request',
-                '%d개의 열린 Pull Request들',
+                '열린 Pull Request %d개',
+                '열린 Pull Request %d개',
             ),
 
             'Stale (%s day(s))' => array(
@@ -565,46 +565,46 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s Commit(s)' => array(
-                '%s개의 커밋',
-                '%s개의 커밋들',
+                '커밋 %s개',
+                '커밋 %s개',
             ),
 
             '%s attached %d file(s): %s.' => array(
                 array(
                     '%s 님이 파일을 첨부했습니다: %3$s.',
-                    '%s 님이 파일들을 첨부했습니다: %3$s.',
+                    '%s 님이 파일을 첨부했습니다: %3$s.',
                 ),
             ),
 
             '%s detached %d file(s): %s.' => array(
                 array(
                     '%s 님이 첨부파일을 내렸습니다: %3$s.',
-                    '%s 님이 첨부파일들을 내렸습니다: %3$s.',
+                    '%s 님이 첨부파일을 내렸습니다: %3$s.',
                 ),
             ),
 
             '%s changed file(s), attached %d: %s; detached %d: %s.' =>
-                '%s 님이 파일들을 변경했습니다, 첨부됨: %3$s; 내려감: %5$s.',
+                '%s 님이 파일을 변경했습니다. 첨부됨: %3$s; 내려감: %5$s.',
 
 
             '%s added %s dependencie(s): %s.' => array(
                 array(
                     '%s 님이 의존성을 추가했습니다: %3$s.',
-                    '%s 님이 의존성들을 추가했습니다: %3$s.',
+                    '%s 님이 의존성을 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s added %s dependencie(s) for %s: %s.' => array(
                 array(
                     '%s 님이 %3$s에 의존성을 추가했습니다: %4$s.',
-                    '%s 님이 %3$s에 의존성들을 추가했습니다: %4$s.',
+                    '%s 님이 %3$s에 의존성을 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s dependencie(s): %s.' => array(
                 array(
                     '%s 님이 의존성을 제거했습니다: %3$s.',
-                    '%s 님이 의존성들을 제거했습니다: %3$s.',
+                    '%s 님이 의존성을 제거했습니다: %3$s.',
                 ),
             ),
 
@@ -663,19 +663,19 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '%s added %s reverted commit(s): %s.' => array(
                 array(
                     '%s 님이 되돌리는 커밋을 추가했습니다: %3$s.',
-                    '%s 님이 되돌리는 커밋들을 추가했습니다: %3$s.',
+                    '%s 님이 되돌리는 커밋을 추가했습니다: %3$s.',
                 ),
             ),
 
             '%s removed %s reverted commit(s): %s.' => array(
                 array(
                     '%s 님이 되돌리는 커밋을 제거했습니다: %3$s.',
-                    '%s 님이 되돌리는 커밋들을 제거했습니다: %3$s.',
+                    '%s 님이 되돌리는 커밋을 제거했습니다: %3$s.',
                 ),
             ),
 
             '%s edited reverted commit(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 되돌리는 커밋들을 편집했습니다, %3$s 추가됨 %5$s 제거됨.',
+                '%s 님이 되돌리는 커밋들을 편집했습니다. 추가됨: %3$s; 제거됨: %5$s',
 
             '%s added %s reverted commit(s) for %s: %s.' => array(
                 array(
@@ -692,7 +692,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s edited reverted commit(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 %2$s에서 되돌리는 커밋을 편집했습니다, %4$s 추가됨 %6$s 제거됨.',
+                '%s 님이 %2$s에서 되돌리는 커밋을 편집했습니다. 추가됨: %4$s;  제거됨: %6$s.',
 
             '%s added %s reverting commit(s): %s.' => array(
                 array(
@@ -720,13 +720,13 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
 
             '%s removed %s reverting commit(s) for %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s 에서 되돌리는 커밋을 삭제했습니다: %4$s.',
-                    '%s 님이 %3$s 에서 되돌리는 커밋을 삭제했습니다: %4$s.',
+                    '%s 님이 %3$s에서 되돌리는 커밋을 삭제했습니다: %4$s.',
+                    '%s 님이 %3$s에서 되돌리는 커밋을 삭제했습니다: %4$s.',
                 ),
             ),
 
             '%s edited reverting commit(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 %s 의 되돌리는 커밋을 수정했습니다: 추가됨: %4$s; 삭제됨: %6$s.',
+                '%s 님이 %s의 되돌리는 커밋을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s changed project member(s), added %d: %s; removed %d: %s.' =>
                 '%s 님이 프로젝트 구성원 목록을 수정했습니다. 추가됨: %3$s, 제거됨: %5$s.',
@@ -740,8 +740,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
 
             '%s removed %d project member(s): %s.' => array(
                 array(
-                    '%s 님이 구성원을 제거했습니다: %3$s.',
-                    '%s 님이 구성원을 제거했습니다: %3$s.',
+                    '%s 님이 프로젝트 구성원을 제거했습니다: %3$s.',
+                    '%s 님이 프로젝트 구성원을 제거했습니다: %3$s.',
                 ),
             ),
 
@@ -807,8 +807,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s commit(s)' => array(
-                '1 개의 커밋',
-                '%s 개의 커밋',
+                '커밋 1개',
+                '커밋 %s개',
             ),
 
             '%s removed %s JIRA issue(s): %s.' => array(
@@ -840,35 +840,35 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
 
             '%s added %s task(s) to %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s 에 작업을 추가했습니다: %4$s.',
-                    '%s 님이 %3$s 에 작업을 추가했습니다: %4$s.',
+                    '%s 님이 %3$s에 작업을 추가했습니다: %4$s.',
+                    '%s 님이 %3$s에 작업을 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s task(s) from %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s 에서 작업을 제거했습니다: %4$s.',
-                    '%s 님이 %3$s 에서 작업을 제거했습니다: %4$s.',
+                    '%s 님이 %3$s에서 작업을 제거했습니다: %4$s.',
+                    '%s 님이 %3$s에서 작업을 제거했습니다: %4$s.',
                 ),
             ),
 
             '%s edited %s task(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 %3$s 의 작업을 수정했습니다. 추가됨: %5$s;, 삭제됨: %7$s.',
+                '%s 님이 %3$s의 작업을 수정했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
 
             '%s edited %s commit(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 커밋을 수정했습니다. 추가됨: %4$s, 삭제됨: %6$s.',
+                '%s 님이 커밋을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s added %s commit(s) to %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s 에 커밋을 추가했습니다: %4$s.',
-                    '%s 님이 %3$s 에 커밋을 추가했습니다: %4$s.',
+                    '%s 님이 %3$s에 커밋을 추가했습니다: %4$s.',
+                    '%s 님이 %3$s에 커밋을 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s commit(s) from %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s 에서 커밋을 삭제했습니다: %4$s.',
-                    '%s 님이 %3$s 에서 커밋을 삭제했습니다: %4$s.',
+                    '%s 님이 %3$s에서 커밋을 삭제했습니다: %4$s.',
+                    '%s 님이 %3$s에서 커밋을 삭제했습니다: %4$s.',
                 ),
             ),
 
@@ -894,8 +894,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
 
             '%s added %s revision(s) to %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s 에 리비전을 추가했습니다: %4$s.',
-                    '%s 님이 %3$s 에 리비전을 추가했습니다: %4$s.',
+                    '%s 님이 %3$s에 리비전을 추가했습니다: %4$s.',
+                    '%s 님이 %3$s에 리비전을 추가했습니다: %4$s.',
                 ),
             ),
 
@@ -907,10 +907,10 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s edited %s revision(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %3$s의 리비전을 편집했습니다, %5$s 추가됨 %7$s 삭제됨.',
+                '%s가 %3$s의 리비전을 편집했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
 
             '%s edited %s project(s), added %s: %s; removed %s: %s.' =>
-                '%s가 프로젝트를 편집했습니다. %4$s가 추가됨 %6$s 삭제됨.',
+                '%s가 프로젝트를 편집했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
             '%s added %s project(s) to %s: %s.' => array(
                 array(
@@ -927,7 +927,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s edited %s project(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s가 %3$s에서 프로젝트를 편집했습니다, %5$s 추가됨 %7$s 제거됨.',
+                '%s가 %3$s에서 프로젝트를 편집했습니다, 추가됨: %5$s; 제거됨: %7$s.',
 
             '%s added %s panel(s): %s.' => array(
                 array(
@@ -944,7 +944,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s edited %s panel(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 패널을 수정했습니다. %4$s 추가됨 %6$s 제거됨.',
+                '%s 님이 패널을 수정했습니다. 추가됨: %4$s; 제거됨: %6$s.',
 
             '%s added %s dashboard(s): %s.' => array(
                 array(
@@ -1012,7 +1012,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s edited %s member(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 %3$s의 구성원 명단을 수정했습니다, %5$s가 추가되고 %7$s가 나갔습니다.',
+                '%s 님이 %3$s의 구성원 명단을 수정했습니다. %5$s가 추가되고 %7$s가 나갔습니다.',
 
             '%d related link(s):' => array(
                 '관련 링크:',
@@ -1162,12 +1162,12 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
             'This call takes %s parameter(s), but only %s are documented.' => array(
                 array(
-                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 돠었습니다.',
-                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 돠었습니다.',
+                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 되었습니다.',
+                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 되었습니다.',
                 ),
                 array(
-                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 돠었습니다.',
-                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 돠었습니다.',
+                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 되었습니다.',
+                    '이 호출은 %s 개의 파라미터가 필요하지만, %s 개만 문서화 되었습니다.',
                 ),
             ),
 
