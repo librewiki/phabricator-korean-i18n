@@ -24,12 +24,12 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
                 '이 설정값은 다음과 관계있습니다:',
                 '이 설정값은 다음과 관계있습니다:',
             ),
-            '%s Task(s)' => array('작업', '작업들'),
+            '%s Task(s)' => array('작업', '작업'),
 
-            '%s ERROR(S)' => array('오류', '오류들'),
+            '%s ERROR(S)' => array('오류', '오류'),
             '%d Error(s)' => array('%d 오류', '%d 오류'),
             '%d Warning(s)' => array('%d 경고', '%d 경고'),
-            '%d Auto-Fix(es)' => array('%d Auto-Fix', '%d Auto-Fixes'),
+            '%d Auto-Fix(es)' => array('%d 자동 종결', '%d 자동 종결'),
             '%d Advice(s)' => array('%d 조언', '%d 개의 조언'),
             '%d Detail(s)' => array('%d 상세', '%d 상세'),
 
@@ -50,8 +50,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             'There are %d raw fact(s) in storage.' => array(
-                ' 스토리지에 가공되지 않은 정보가 %d개 있습니다.',
-                ' 스토리지에 가공되지 않은 정보가 %d개 있습니다.',
+                ' 저장소에 가공되지 않은 정보가 %d개 있습니다.',
+                ' 저장소에 가공되지 않은 정보가 %d개 있습니다.',
             ),
 
             'There are %d aggregate fact(s) in storage.' => array(
@@ -70,9 +70,9 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%d Review(s) Blocking Others' => array(
-                '리뷰 %d개가 다른 커밋의 병합을 차단하고 있습니다',
-                '리뷰 %d개가 다른 커밋의 병합을 차단하고 있습니다',
-            ), #TODO: Blocking here means preventing merge of commits
+                '리뷰 %d개가 다른 커밋의 병합을 막고 있습니다',
+                '리뷰 %d개가 다른 커밋의 병합을 막고 있습니다',
+            ), 
 
             '%d Review(s) Need Attention' => array(
                 '리뷰 %d개에 관심이 필요합니다',
@@ -113,8 +113,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             'This is a binary file. It is %s byte(s) in length.' => array(
-                '이것은 바이너리 파일입니다. 크기는 %s byte 입니다.',
-                '이것은 바이너리 파일입니다. 크기는 %s bytes 입니다.',
+                '이것은 바이너리 파일입니다. 크기는 %s 바이트 입니다.',
+                '이것은 바이너리 파일입니다. 크기는 %s 바이트 입니다.',
             ),
 
             '%d Action(s) Have No Effect' => array(

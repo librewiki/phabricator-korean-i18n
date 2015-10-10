@@ -11,4 +11,4 @@
 저장소를 로컬에 clone하여 번역하든, 웹에서 번역하든 방법은 같습니다. PhabricatorKoreanTranslation.php 파일을 수정하고, 커밋한 후, 푸시하면 됩니다. 저장소 권한이 없을 경우 포크 저장소에 푸시한 후 풀 리퀘스트를 보내주세요. 여러 개의 풀 리퀘스트를 보내주시면 푸시 권한을 드립니다.
 
 # 용어집 및 주의사항
-[리브레 위키 이슈 트래커 위키](https://issue.librewiki.net/w/phabricatortranslation/)으로 이전되었습니다.
+[리브레 위키 이슈 트래커 위키](https://issue.librewiki.net/w/phabricatortranslation/)로 이전되었습니다.
