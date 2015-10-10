@@ -39,7 +39,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '%d path(s)' => array('%d 위치', '%d 위치'),
             '%d diff(s)' => array('%d 다른점', '%d 다른점'),
 
-            '%s DIFF LINK(S)' => array('DIFF LINK', 'DIFF LINKS'),
+            '%s DIFF LINK(S)' => array('다른점 링크', '다른점 링크'),
             'You successfully created %d diff(s).' => array(
                 '성공적으로 다른점 %d개를 만들었습니다.',
                 '성공적으로 다른점 %d개를 만들었습니다.',
@@ -60,8 +60,8 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%d Commit(s) Awaiting Audit' => array(
-                '%d개의 커밋이 검토를 기다리고 있습니다.',
-                '%d개의 커밋이 검토를 기다리고 있습니다.',
+                '%d개의 커밋이 검토를 기다리고 있습니다',
+                '%d개의 커밋이 검토를 기다리고 있습니다',
             ),
 
             '%d Problem Commit(s)' => array(
@@ -70,18 +70,18 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%d Review(s) Blocking Others' => array(
-                '리뷰 %d개가 다른 사람을 방해하고 있습니다.',
-                '리뷰 %d개가 다른 사람을 방해하고 있습니다.',
+                '리뷰 %d개가 다른 커밋의 병합을 차단하고 있습니다',
+                '리뷰 %d개가 다른 커밋의 병합을 차단하고 있습니다',
             ), #TODO: Blocking here means preventing merge of commits
 
             '%d Review(s) Need Attention' => array(
-                '리뷰 %d개에 관심이 필요합니다.',
-                '리뷰 %d개에 관심이 필요합니다.',
+                '리뷰 %d개에 관심이 필요합니다',
+                '리뷰 %d개에 관심이 필요합니다',
             ),
 
             '%d Review(s) Waiting on Others' => array(
-                '다른 사람의 리뷰 %d개를 기다리고 있습니다.',
-                '다른 사람의 리뷰 %d개를 기다리고 있습니다.',
+                '다른 사람의 리뷰 %d개를 기다리고 있습니다',
+                '다른 사람의 리뷰 %d개를 기다리고 있습니다',
             ),
 
             '%d Active Review(s)' => array(
@@ -307,7 +307,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '%s removed %s question(s): %s.' => array(
                 array(
                     '%s 님이 질문을 삭제했습니다: %3$s.',
-                    '%s 님이 질문들을 삭제했습니다: %3$s.',
+                    '%s 님이 질문을 삭제했습니다: %3$s.',
                 ),
             ),
 
@@ -343,7 +343,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s edited file(s), added %s: %s; removed %s: %s.' =>
-                '%s 님이 파일을 바꾸었습니다. 추가됨: %3$s; 삭제됨: %5$s.',
+                '%s 님이 파일을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
             '%s added %s file(s): %s.' => array(
                 array(
