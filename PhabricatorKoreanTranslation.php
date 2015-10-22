@@ -1091,7 +1091,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '%s marked %s inline comment(s) as not done.' => array(
                 array(
                     '%s 님이 인라인 의견을 완료되지 않음으로 표시했습니다.',
-                    '%s 님이 인라인 의견 %d개를 완료되지 않음으로 표시했습니다.',
+                    '%s 님이 인라인 의견 %s개를 완료되지 않음으로 표시했습니다.',
                 ),
             ),
 
