@@ -1000,23 +1000,23 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '%s added %s member(s) for %s: %s.' => array(
                 array(
                     '%s 님이 %3$s에 구성원을 추가했습니다: %4$s.',
-                    '%s 님이 %3$s에 여러 명의 구성원을 추가했습니다: %4$s.',
+                    '%s 님이 %3$s에 구성원을 추가했습니다: %4$s.',
                 ),
             ),
 
             '%s removed %s member(s) for %s: %s.' => array(
                 array(
-                    '%s 님이 %3$s에서 구성원을 뺐습니다: %4$s.',
-                    '%s 님이 %3$s에서 여러 명의 구성원을 뺐습니다: %4$s.',
+                    '%s 님이 %3$s에서 구성원을 제거했습니다: %4$s.',
+                    '%s 님이 %3$s에서 구성원을 제거했습니다: %4$s.',
                 ),
             ),
 
             '%s edited %s member(s) for %s, added %s: %s; removed %s: %s.' =>
-                '%s 님이 %3$s의 구성원 명단을 수정했습니다. %5$s가 추가되고 %7$s가 나갔습니다.',
+                '%s 님이 %3$s의 구성원 명단을 수정했습니다. 추가됨: %5$s; 제거됨: %7$s.',
 
             '%d related link(s):' => array(
                 '관련 링크:',
-                '관련 링크들:',
+                '관련 링크:',
             ),
 
             'You have %d unpaid invoice(s).' => array(
@@ -1026,7 +1026,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
 
             'The configurations differ in the following %s way(s):' => array(
                 '구성이 다릅니다:',
-                '구성이 이러이러한 방향에서 다릅니다:',
+                '구성이 이런 방향에서 다릅니다:',
             ),
 
             'Phabricator is configured with an email domain whitelist (in %s), so '.
@@ -1084,20 +1084,20 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             '%s marked %s inline comment(s) as done.' => array(
                 array(
                     '%s 님이 인라인 의견을 완료됨으로 표시했습니다.',
-                    '%s 님이 %s개의 인라인 의견들을 완료됨으로 표시했습니다.',
+                    '%s 님이 인라인 의견 %s개를 완료됨으로 표시했습니다.',
                 ),
             ),
 
             '%s marked %s inline comment(s) as not done.' => array(
                 array(
                     '%s 님이 인라인 의견을 완료되지 않음으로 표시했습니다.',
-                    '%s 님이 %s개의 인라인 의견들을 완료되지 않음으로 표시했습니다.',
+                    '%s 님이 인라인 의견 %d개를 완료되지 않음으로 표시했습니다.',
                 ),
             ),
 
             'These %s object(s) will be destroyed forever:' => array(
-                '이 객체는 영구히 파괴됩니다.:',
-                '이 객체는 영구히 파괴됩니다.:',
+                '이 객체는 영구히 파괴됩니다:',
+                '이 객체는 영구히 파괴됩니다:',
             ),
 
             'Are you absolutely certain you want to destroy these %s '.
@@ -1121,7 +1121,7 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
             ),
 
             '%s changed %s package owner(s), added %s: %s; removed %s: %s.' => array(
-                '%s 님이 패키지 오너를 변경하였습니다. 추가됨 : %4$s; 제외됨 : %6$s.',
+                '%s 님이 패키지 오너를 변경하였습니다. 추가됨: %4$s; 제외됨: %6$s.',
             ),
 
             'Found %s book(s).' => array(
@@ -1133,16 +1133,16 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
                 '프로젝트에서 %s 파일을 검색',
             ),
             'Found %s unatomized, uncached file(s).' => array(
-                '%s unatomized, uncached 파일 검색됨.',
-                '%s unatomized, uncached 파일들 검색됨.',
+                '원자화 또는 캐싱되지 않은 파일 %s개 검색됨.',
+                '원자화 또는 캐싱되지 않은 파일 %s개 검색됨.',
             ),
             'Found %s file(s) to atomize.' => array(
-                '%s atomize할 파일 검색됨.',
-                '%s atomize할 파일들 검색됨.',
+                '원자화할 파일 %s개 검색됨.',
+                '원자화할 파일 %s개 검색됨.',
             ),
             'Atomizing %s file(s).' => array(
-                '%s 파일 atomizing.',
-                '%s 파일들 atomizing.',
+                '파일 %s개를 원자화하고 있습니다.',
+                '파일 %s개를 원자화하고 있습니다.',
             ),
             'Creating %s document(s).' => array(
                 '문서 %s개를 만들고 있습니다.',
@@ -1153,12 +1153,12 @@ final class PhabricatorKoreanTranslation extends PhutilTranslation {
                 '문서 %s개를 지우고 있습니다.',
             ),
             'Found %s obsolete atom(s) in graph.' => array(
-                '%s 그래프에서 오래된 원자 검색됨',
-                '%s 그래프에서 오래된 원자들 검색됨',
+                '그래프에서 오래된 원자 %s개 검색됨',
+                '그래프에서 오래된 원자 %s개 검색됨',
             ),
             'Found %s new atom(s) in graph.' => array(
-                '%s 그래프에서 새로운 원자 검색됨',
-                '%s 그래프에서 새로운 원자 검색됨',
+                '그래프에서 새로운 원자 %s개 검색됨',
+                '그래프에서 새로운 원자 %s개 검색됨',
             ),
             'This call takes %s parameter(s), but only %s are documented.' => array(
                 array(
