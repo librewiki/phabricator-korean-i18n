@@ -1,10 +1,10 @@
 <?php
 
-final class PhabricatorUSEnglishTranslation
+final class PhabricatorKoreanTranslation
   extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'en_US';
+    return 'ko_KR';
   }
 
   protected function getTranslations() {
