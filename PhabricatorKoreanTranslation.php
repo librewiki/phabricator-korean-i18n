@@ -309,19 +309,19 @@ final class PhabricatorKoreanTranslation
       ),
 
       '%s edited mock(s), added %s: %s; removed %s: %s.' =>
-        '%s 님이 mock을 편집했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
+        '%s 님이 모의실험을 편집했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
       '%s added %s mock(s): %s.' => array(
         array(
-          '%s 님이 mock을 추가했습니다: %3$s.',
-          '%s 님이 mock을 추가했습니다: %3$s.',
+          '%s 님이 모의실험을 추가했습니다: %3$s.',
+          '%s 님이 모의실험을 추가했습니다: %3$s.',
         ),
       ),
 
       '%s removed %s mock(s): %s.' => array(
         array(
-          '%s 님이 mock을 삭제했습니다: %3$s.',
-          '%s 님이 mock을 삭제했습니다: %3$s.',
+          '%s 님이 모의실험을 삭제했습니다: %3$s.',
+          '%s 님이 모의실험을 삭제했습니다: %3$s.',
         ),
       ),
 
@@ -1512,6 +1512,311 @@ final class PhabricatorKoreanTranslation
         '객체 %s 영구 삭제.',
         '객체 %s 영구 삭제.',
       ),
+      
+      'Configure' =>
+        '환경설정',
+        
+      'Core Applications' =>
+        '핵심 어플리케이션',
+        
+      'Audit' =>
+        '어딧',
+        
+      'Browse and Audit Commits' =>
+        '커밋들을 둘러보고 검토합니다.',
+      
+      'Calendar (Prototype)' =>
+        '캘린더 (프로토타입)',
+      
+      'Upcoming Events' =>
+        '일정을 계획합니다.',
+        
+      'Conpherence' =>
+        '컨페런스',
+        
+      'Chat with Others' =>
+        '타인과 대화합니다.',
+        
+      'Dashboards' =>
+        '대시보드',
+        
+      'Create Custom Pages' =>
+        '자신만의 홈을 만들어보세요.',
+        
+      'Differential' =>
+        '디퍼렌셜',
+      
+      'Review Code' =>
+        '코드를 리뷰합니다.',
+        
+      'Diffusion' =>
+        '디퓨젼',
+        
+      'Host and Browse Repositories' =>
+        '저장소를 탐색합니다.',
+
+      'Feed' =>
+        '피드',
+        
+      'Review Recent Activity' =>
+        '최근활동을 보여줍니다.',
+
+      'Maniphest' =>
+        '매니페스트',
+        
+      'Tasks and Bugs' =>
+        '작업과 버그들을 보여줍니다.',
+
+      'People' =>
+        '피플',
+        
+      'User Accounts and Profiles' =>
+        '등록된 사용자들을 보여줍니다.',
+
+      'Phame (Prototype)' =>
+        '패임 (프로토타입)',
+      
+      'Blog' =>
+        '개인의 블로그를 관리합니다.',
+
+      'Pholio' =>
+        '폴리오',
+      
+      'Review Mocks and Design' =>
+        '모의실험과 디자인을 리뷰합니다.',
+        
+      'Phriction' =>
+        '프릭션',
+        
+      'Wiki' =>
+        '자유롭게 읽고 쓰기가 가능한 문서입니다.',
+
+      'Phurl (Prototype)' =>
+        '펄 (프로토타입)',
+        
+      'URL Shortener' =>
+        'URL의 길이를 줄여줍니다.',
+      
+      'Ponder' =>
+        '폰더',
+      
+      'Questions and Answers' =>
+        '묻고 답하는 공간입니다.',
+
+      'Projects' =>
+        '프로젝트',
+        
+      'Get Organized' =>
+        '체계적으로 계획해보세요.',
+
+      'Releeph (Prototype)' =>
+        '릴리프 (프로토타입)',
+        
+      'Pull Requests' =>
+        '풀 리퀘스트를 관리합니다.',
+
+      'Utilities' =>
+        '유틸리티',
+        
+      'Almanac (Prototype)' =>
+        '알마낙 (프로토타입)',
+        
+      'Service Directory' =>
+        'Service Directory',
+        
+      'Badges (Prototype)' =>
+        '뱃지 (프로토타입)',
+        
+      'Achievements and Notority' =>
+        '상도 주고 놀려도 봅시다!',
+        
+      'Countdown' =>
+        '카운트다운',
+        
+      'Countdown to Events' =>
+        '다음 계획까진 얼마나 남았을까요?',
+
+      'Diviner' =>
+        '디바이너',
+      
+      'Documentation' =>
+        '문서를 만들고 관리합니다.',
+        
+      'Drydock (Prototype)' =>
+        '드라이독 (프로토타입)',
+        
+      'Allocate Software Resources' =>
+        '소프트웨어의 리소스들을 할당합니다.',
+
+      'Facts (Prototype)' =>
+        '팩트 (프로토타입)',
+        
+      'Chart and Analyze Data' =>
+        '자료를 기록하고 분석합니다.',
+      
+      'Files' =>
+        '파일',
+        
+      'Store and Share Files' =>
+        '파일들을 저장하고 공유합니다.',
+      
+      'Flags' =>
+        '플래그',
+        
+      'Personal Bookmarks' =>
+        '자신만의 책갈피를 만듭니다.',
+        
+      'Fund (Prototype)' =>
+        '펀드 (프로토타입)',
+      
+      'Donate' =>
+        '운영자에게 기부합니다.',
+
+      'Harbormaster' =>
+        '하버마스터',
+      
+      'Build/CI' =>
+        '빌드와 CI를 관리합니다.',
+
+      'Legalpad' =>
+        '레갈패드',
+        
+      'Agreements and Signatures' =>
+        '합의하고 결재합니다.',
+
+      'Macro' =>
+        '매크로',
+        
+      'Image Macros and Memes' =>
+        '이미지 매크로를 관리합니다.',
+
+      'Owners' =>
+        '오너',
+        
+      'Own Source Code' =>
+        '소스코드의 소유권을 관리합니다.',
+        
+      'Passphrase' =>
+        '패스프레이즈',
+        
+      'Credential Store' =>
+        'Credential Store',
+
+      'Paste' =>
+        '페이스트',
+        
+      'Share Text Snippets' =>
+        '텍스트로 된 정보를 공유합니다.',
+        
+      'Phlux (Prototype)' =>
+        '플럭스 (프로토타입)',
+        
+      'Key/Value Configuration Store' =>
+        '변수에 대한 설정을 저장합니다.',
+        
+      'Phortune (Prototype)' =>
+        '포츈 (프로토타입)',
+        
+      'Accounts and Billing' =>
+        '계좌를 관리합니다.',
+
+      'Phragment (Prototype)' =>
+        '프래그먼트 (프로토타입)',
+        
+      'Versioned Artifact Storage' =>
+        '수정된 아티팩트를 보관합니다.',
+        
+      'Phrequent (Prototype)' =>
+        '프리퀀트 (프로토타입)',
+      
+      'Track Time Spent' =>
+        '시간소모를 추적합니다.',
+        
+      'Slowvote' =>
+        '슬로우봇',
+        
+      'Conduct Polls' =>
+        '투표를 시행합니다.',
+        
+      'Spaces' =>
+        '스페이스',
+        
+      'Policy Namespaces' =>
+        '정책을 명명합니다.',
+
+      'Tokens' =>
+        '토큰',
+        
+      'Award and Acquire Trinkets' =>
+        '토큰을 주고 칭찬해봅시다.',
+
+      'Administration' =>
+        '관리용 기능',
+        
+      'Auth' =>
+        '어스',
+        
+      'Login/Registration' =>
+        '로그인과 회원가입을 관리합니다.',
+
+      'Config' =>
+        '컨피그',
+        
+      'Configure Phabricator' =>
+        '파브리케이터 환경설정입니다.',
+        
+      'Daemons' =>
+        '데몬',
+        
+      'Manage Phabricator Daemons' =>
+        '파브리케이터의 데몬을 관리합니다.',
+        
+      'Mail' =>
+        '메일',
+        
+      'Send and Receive Mail' =>
+        '메일을 주고받습니다.',
+
+      'OAuth Server (Prototype)' =>
+        'OAuth 서버 (프로토타입)',
+        
+      'OAuth Login Provider' =>
+        'OAuth 로그인을 지원합니다.',
+      
+      'Developer Tools' =>
+        '개발자 도구',
+        
+      'Conduit' =>
+        '컨듀잇',
+        
+      'Developer API' =>
+        '개발자를 위한 API입니다.',
+
+      'Multimeter (Prototype)' =>
+        '멀티미터 (프로토타입)',
+        
+      'Performance Sampler' =>
+        'Performance Sampler',
+
+      'PHPAST' =>
+        'PHPAST',
+        
+      'Visual PHP Parser' =>
+        'Visual PHP Parser',
+
+      'UIExamples (Prototype)' =>
+        'UI이그샘플 (프로토타입)',
+      
+      'Developer UI Examples' =>
+        '개발자를 위해 제공되는 예시 UI들이 모여있습니다.',
+        
+      'XHProf' =>
+        'XH프롭',
+        
+      'PHP Profiling Tool' =>
+        'PHP 자료수집 도구입니다.'
+      
+      
     );
   }
 
