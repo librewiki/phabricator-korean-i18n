@@ -12,3 +12,8 @@
 
 # 용어집 및 주의사항
 [리브레 위키 이슈 트래커 위키](https://issue.librewiki.net/w/phabricatortranslation/)로 이전되었습니다.
+
+# 검토자를 위한 도움말
+
+```master``` 브랜치에 직접 푸시하지 마세요! 모든 번역은 별도의 브랜치에서 작업된 후 Pull Request를 통한 검토를 거쳐야 합니다.
+번역에 문제가 없다면 ```@homu r+```로 봇에게 머지를 지시해 주세요. GitHub의 Merge 버튼을 사용하지 마세요.
