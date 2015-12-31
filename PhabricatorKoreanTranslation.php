@@ -10,8 +10,8 @@ final class PhabricatorKoreanTranslation
   protected function getTranslations() {
     return array(
       'No daemon(s) with id(s) "%s" exist!' => array(
-        'id:%s인 데몬이 존재하지 않습니다',
-        'id:%s인 데몬이 존재하지 않습니다',
+        'id가 %s인 데몬이 존재하지 않습니다',
+        'id가 %s인 데몬이 존재하지 않습니다',
       ),
       'These %d configuration value(s) are related:' => array(
         '이 설정값은 다음과 관계있습니다:',
@@ -30,19 +30,19 @@ final class PhabricatorKoreanTranslation
 
       '%d line(s)' => array('%d 줄', '%d 줄'),
       '%d path(s)' => array('%d 위치', '%d 위치'),
-      '%d diff(s)' => array('%d 다른점', '%d 다른점'),
+      '%d diff(s)' => array('%d 차이', '%d 차이'),
 
       '%s Answer(s)' => array('%s 답변', '%s 답변'),
       'Show %d Comment(s)' => array('%d개의 의견 보기', '%d개의 의견 보기'),
 
       '%s DIFF LINK(S)' => array('DIFF LINK', 'DIFF LINKS'),
       'You successfully created %d diff(s).' => array(
-        '성공적으로 다른점 %d개를 만들었습니다.',
-        '성공적으로 다른점 %d개를 만들었습니다.',
+        '성공적으로 차이 %d개를 만들었습니다.',
+        '성공적으로 차이 %d개를 만들었습니다.',
       ),
       'Diff creation failed; see body for %s error(s).' => array(
-        '다른점을 만드는 데 실패했습니다. 에러를 확인하세요.',
-        '다른점을 만드는 데 실패했습니다. 에러를 확인하세요.',
+        '차이를 만드는 데 실패했습니다. 에러를 확인하세요.',
+        '차이를 만드는 데 실패했습니다. 에러를 확인하세요.',
       ),
 
       'There are %d raw fact(s) in storage.' => array(
@@ -66,8 +66,8 @@ final class PhabricatorKoreanTranslation
       ),
 
       '%s Review(s) Blocking Others' => array(
-        '리뷰 %s개가 다른 사람을 방해하고 있습니다.',
-        '리뷰 %s개가 다른 사람을 방해하고 있습니다.',
+        '리뷰 %s개로 인해 다른 사람의 작업이 가로막혔습니다.',
+        '리뷰 %s개로 인해 다른 사람의 작업이 가로막혔습니다.',
       ),
 
       '%s Review(s) Need Attention' => array(
@@ -208,71 +208,71 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s blocking task(s): %s.' => array(
         array(
-          '%s 님이 작업을 차단 중입니다: %3$s.',
-          '%s 님이 작업을 차단 중입니다: %3$s.',
+          '%s 가 선행 작업으로 추가했습니다: %3$s.',
+          '%s 가 선행 작업으로 추가했습니다: %3$s.',
         ),
       ),
 
       '%s added %s blocked task(s): %s.' => array(
         array(
-          '%s 님이 작업을 차단했습니다: %3$s.',
-          '%s 님이 작업을 차단했습니다: %3$s.',
+          '%s 가 후행 작업으로 추가했습니다: %3$s.',
+          '%s 가 후행 작업으로 추가했습니다: %3$s.',
         ),
       ),
 
       '%s removed %s blocking task(s): %s.' => array(
         array(
-          '%s 님이 차단 중인 작업을 삭제했습니다: %3$s.',
-          '%s 님이 차단 중인 작업을 삭제했습니다: %3$s.',
+          '선행으로 설정한 작업을 %s 님이 취소했습니다: %3$s.',
+          '선행으로 설정한 작업을 %s 님이 취소했습니다: %3$s.',
         ),
       ),
 
       '%s removed %s blocked task(s): %s.' => array(
         array(
-          '%s 님이 차단된 작업을 삭제했습니다: %3$s.',
-          '%s 님이 차단된 작업을 삭제했습니다: %3$s.',
+          '후행으로 설정한 작업을 %s 님이 취소했습니다: %3$s.',
+          '후행으로 설정한 작업을 %s 님이 취소했습니다: %3$s.',
         ),
       ),
 
       '%s added %s blocking task(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s을(를) 위해 작업을 차단 중입니다: %4$s.',
-          '%s 님이 %3$s을(를) 위해 작업을 차단 중입니다: %4$s.',
+          '%s 님이 "%3$s"의 사유로 선행 작업으로 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"의 사유로 선행 작업으로 추가했습니다: %4$s.',
         ),
       ),
 
       '%s added %s blocked task(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s을(를) 위해 작업을 차단했습니다: %4$s.',
-          '%s 님이 %3$s을(를) 위해 작업을 차단했습니다: %4$s.',
+          '%s 님이 "%3$s"의 사유로 후행 작업으로 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"의 사유로 후행 작업으로 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s blocking task(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s을(를) 위해 차단 중인 작업을 삭제했습니다: %4$s.',
-          '%s 님이 %3$s을(를) 위해 차단 중인 작업을 삭제했습니다: %4$s.',
+          '선행으로 설정한 작업을 %s 님이 "%3$s"의 사유로 취소했습니다: %4$s.',
+          '선행으로 설정한 작업을 %s 님이 "%3$s"의 사유로 취소했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s blocked task(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s을(를) 위해 차단된 작업을 삭제했습니다: %4$s.',
-          '%s 님이 %3$s을(를) 위해 차단된 작업을 삭제했습니다: %4$s.',
+          '후행으로 설정한 작업을 %s 님이 "%3$s"의 사유로 취소했습니다: %4$s.',
+          '후행으로 설정한 작업을 %s 님이 "%3$s"의 사유로 취소했습니다: %4$s.',
         ),
       ),
 
       '%s edited blocking task(s), added %s: %s; removed %s: %s.' =>
-        '%s 님이 차단 중인 작업을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
+        '%s 님이 선행 작업 목록을 수정하였습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
       '%s edited blocking task(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 %s을(를) 위해 차단 중인 작업을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
+        '%s 님이 "%s"의 사유로 선행 작업 목록을 수정하였습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s edited blocked task(s), added %s: %s; removed %s: %s.' =>
-        '%s 님이 차단된 작업을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
+        '%s 님이 후행 작업 목록을 수정하였습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
       '%s edited blocked task(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 %s을(를) 위해 차단된 작업을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
+        '%s 님이 "%s"의 사유로 후행 작업 목록을 수정하였습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s edited answer(s), added %s: %s; removed %d: %s.' =>
         '%s 님이 답변을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
@@ -561,8 +561,8 @@ final class PhabricatorKoreanTranslation
       ),
 
       '%s Open Pull Request(s)' => array(
-        '열린 분기점 합병 요구 %s개',
-        '열린 분기점 합병 요구 %s개',
+        '열린 풀 리퀘스트 %s개',
+        '열린 풀 리퀘스트 %s개',
       ),
 
       'Stale (%s day(s))' => array(
@@ -1313,13 +1313,13 @@ final class PhabricatorKoreanTranslation
       ),
 
       'Added %s subscriber(s): %s.' => array(
-        '구독자 추가: %2$s.',
-        '구독자 추가: %2$s.',
+        '구독자 추가됨: %2$s.',
+        '구독자 추가됨: %2$s.',
       ),
 
       'Removed %s subscriber(s): %s.' => array(
-        '구독자 제외: %2$s.',
-        '구독자 제외: %2$s.',
+        '구독자 제외됨: %2$s.',
+        '구독자 제외됨: %2$s.',
       ),
 
       'Queued email to be delivered to %s target(s): %s.' => array(
@@ -1346,23 +1346,23 @@ final class PhabricatorKoreanTranslation
       ),
 
       'Added %s project(s): %s.' => array(
-        '프로젝트 추가: %2$s.',
-        '프로젝트 추가: %2$s.',
+        '프로젝트 추가됨: %2$s.',
+        '프로젝트 추가됨: %2$s.',
       ),
 
       'Removed %s project(s): %s.' => array(
-        '프로젝트 제거: %2$s.',
-        '프로젝트 제거: %2$s.',
+        '프로젝트 제거됨: %2$s.',
+        '프로젝트 제거됨: %2$s.',
       ),
 
       'Added %s reviewer(s): %s.' => array(
-        '검토자 추가: %2$s.',
-        '검토자 추가: %2$s.',
+        '검토자 추가됨: %2$s.',
+        '검토자 추가됨: %2$s.',
       ),
 
       'Added %s blocking reviewer(s): %s.' => array(
-        '차단된 검토자 추가: %2$s.',
-        '차단된 검토자 추가: %2$s.',
+        '차단된 검토자 추가됨: %2$s.',
+        '차단된 검토자 추가됨: %2$s.',
       ),
 
       'Required %s signature(s): %s.' => array(
