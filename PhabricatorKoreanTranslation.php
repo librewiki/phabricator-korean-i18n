@@ -1532,6 +1532,73 @@ final class PhabricatorKoreanTranslation
       'No Waiting Revisions: No revisions are waiting on you.' =>
         'No Waiting Revisions: No revisions are waiting on you.',
       
+      //매니페스트
+      'Cancel' => '취소',
+      'Edit Task' => '작업 수정',
+      'Merge Duplicates In' => '같은 작업 병합',
+      'Create Subtask' => '세부작업 생성',
+      'Edit Blocking Tasks' => '후행작업 수정',
+      'Edit Differential Revisions' => '디퍼렌셜 검토 수정',
+      'Edit Pholio Mocks' => '폴리오 모의실험 수정',
+      'Unsubscribe' => '구독 취소',
+      'Start Tracking Time' => '시간 추적 시작',
+      'Stop Tracking Time' => '시간 추적 종료',
+      'Award Token' => '토큰 수여',
+      'Flag For Later' => '책갈피 지정',
+      'DESCRIPTION' => '작업내용',
+      'DESCRIPTION PREVIEW' => '미리보기',
+      
+      'TASKS TO MERGE' => '병합할 작업',
+      'No results.' => '결과 없음',
+      'Nothing attached.' => '아무것도 지정되지 않았습니다.',
+      'These tasks will be merged into the current task and then closed. The current task will grow stronger.' =>
+      '이 작업들은 현재의 작업에 모두 병합되고 닫힙니다. 이 작업은 더욱 더 성장할것입니다.',
+      'Merge Tasks' => '병합 시작',
+      'Parent Task' => '소속 작업',
+      
+      'CURRENT BLOCKING TASKS' => '현재 이 작업을 선행작업으로 두는 작업',
+      'Save Blocking Tasks' => '선/후행작업 저장하기',
+      
+      'CURRENTLY ATTACHED REVISIONS' => '현재 지정되어있는 검토',
+      'Save Revisions' => '검토 저장하기',
+      'CURRENTLY ATTACHED MOCKS' => '현재 적용되어있는 모의실험',
+      'Save Mocks' => '모의실험 저장',
+      
+      'What time did you start working?' => '언제부터 작업하셨나요?',
+      'Start Timer' => '시작시간',
+      'What time did you stop working?' => '언제까지 작업하셨나요?',
+      'Started At' => '시작시간',
+      'Stop Timer' => '종료시간',
+      
+      'You can flag this Maniphest Task if you want to remember to look at it later.' => '이 매니페스트 작업을 다음에 보기위해 기억하기 위해서 기록합니다.',
+      
+      '%s created this task.' => '%s가 이 작업을 만들었습니다.',
+      '%s added a project: %s.' => '%s가 프로젝트를 추가했습니다: %s.',
+      '%s moved this task to %s on the %s workboard.' => '%s가 이 작업을 %s상태로 %s로 옮겼습니다.',
+      '%s added a subscriber: %s.' => '%s가 구독자를 추가했습니다: %s',
+      '%s added a comment.' => '%s가 의견을 제시했습니다.',
+      '%s created this object with visibility "%s".' => '%s가 이 객체를 %s만 볼 수 있게 만들었습니다.',
+      '%s created this object with edit policy "%s".' => '%s가 이 객체를 %s만 수정할 수 있게 만들었습니다.',
+      '%s raised the priority of this task from "%s" to "%s".' => '%s가 이 작업의 우선도를 %s에서 %s로 높였습니다.',
+      '%s lowered the priority of this task from "%s" to "%s".' => '%s가 이 작업의 우선도를 %s에서 %s로 낮췄습니다.',
+      '%s triaged this task as "%s" priority' => '%s가 이 작업의 우선도를 %s로 설정하였습니다.',
+      'In %s, %s wrote:' => '%s에서 %s가 한 말을 인용하였습니다.',
+      'This comment was removed by %s.' => '%s에 의해 삭제된 의견입니다.',
+      
+      '%s added a blocked task: %s' => '%s가 이 작업을 다음 작업들의 선행작업으로 설정하였습니다: %s',
+      '%s removed a blocked task: %s' => '%s가 이 작업을 선행작업으로 설정한 것을 취소하였습니다: %s',
+      
+      '%s added a blocking task: %s' => '%s가 이 작업이 다음 작업을 선행으로 해야한다고 설정하였습니다: %s',
+      '%s removed a blocking task: %s' => '%s가 다음 작업을 선행해야 한다는 것을 취소하였습니다: %s',
+      '%s assigned this task to %s' => '%s가 이 작업을 %s에게 할당하였습니다.',
+      '%s closed this task as "%s".' => '%s가 이 작업이 %s상태로 보고 닫았습니다.',
+      
+      'CC' => '구독자',
+      'Older changes are hidden.' => '오래된 내용들을 감추었습니다.',
+      'Show older changes.' => '오래된 내용 펼치기',
+      'Author' => '저자',
+      'Note' => '메모'
+      // 매니페스트 작업
       'Home' =>
         '시작',
       
