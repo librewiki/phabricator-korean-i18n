@@ -236,29 +236,29 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s blocking task(s) for %s: %s.' => array(
         array(
-          '%s 님이 "%3$s"의 사유로 선행 작업으로 추가했습니다: %4$s.',
-          '%s 님이 "%3$s"의 사유로 선행 작업으로 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"의 선행 작업으로 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"의 선행 작업으로 추가했습니다: %4$s.',
         ),
       ),
 
       '%s added %s blocked task(s) for %s: %s.' => array(
         array(
-          '%s 님이 "%3$s"의 사유로 후행 작업으로 추가했습니다: %4$s.',
-          '%s 님이 "%3$s"의 사유로 후행 작업으로 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"의 후행 작업으로 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"의 후행 작업으로 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s blocking task(s) for %s: %s.' => array(
         array(
-          '선행으로 설정한 작업을 %s 님이 "%3$s"의 사유로 취소했습니다: %4$s.',
-          '선행으로 설정한 작업을 %s 님이 "%3$s"의 사유로 취소했습니다: %4$s.',
+          '%s 님이 "%3$s"의 선행 작업을 취소했습니다: %4$s.',
+          '%s 님이 "%3$s"의 선행 작업을 취소했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s blocked task(s) for %s: %s.' => array(
         array(
-          '후행으로 설정한 작업을 %s 님이 "%3$s"의 사유로 취소했습니다: %4$s.',
-          '후행으로 설정한 작업을 %s 님이 "%3$s"의 사유로 취소했습니다: %4$s.',
+          '%s 님이 "%3$s"의 후행 작업을 취소했습니다: %4$s.',
+          '%s 님이 "%3$s"의 후행 작업을 취소했습니다: %4$s.',
         ),
       ),
 
@@ -266,13 +266,13 @@ final class PhabricatorKoreanTranslation
         '%s 님이 선행 작업 목록을 수정하였습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
       '%s edited blocking task(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 "%s"의 사유로 선행 작업 목록을 수정하였습니다. 추가됨: %4$s; 삭제됨: %6$s.',
+        '%s 님이 "%s"의 선행 작업 목록을 수정하였습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s edited blocked task(s), added %s: %s; removed %s: %s.' =>
         '%s 님이 후행 작업 목록을 수정하였습니다. 추가됨: %3$s; 삭제됨: %5$s.',
 
       '%s edited blocked task(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 "%s"의 사유로 후행 작업 목록을 수정하였습니다. 추가됨: %4$s; 삭제됨: %6$s.',
+        '%s 님이 "%s"의 후행 작업 목록을 수정하였습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s edited answer(s), added %s: %s; removed %d: %s.' =>
         '%s 님이 답변을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
@@ -377,7 +377,7 @@ final class PhabricatorKoreanTranslation
         '%s 님이 검토자 목록을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s edited %s reviewer(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 "%3$s" 사유로 검토자 목록을 수정했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
+        '%s 님이 "%3$s"의 검토자 목록을 수정했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
 
       '%s added %s reviewer(s): %s.' => array(
         array(
@@ -388,8 +388,8 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s reviewer(s) for %s: %s.' => array(
         array(
-          '%s 님이 "%3$s" 사유로 검토자를 추가했습니다: %4$s.',
-          '%s 님이 "%3$s" 사유로 검토자를 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"의 검토자를 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"의 검토자를 추가했습니다: %4$s.',
         ),
       ),
 
@@ -402,8 +402,8 @@ final class PhabricatorKoreanTranslation
 
       '%s removed %s reviewer(s) for %s: %s.' => array(
         array(
-          '%s 님이 "%3$s" 사유로 검토자를 제거했습니다: %4$s.',
-          '%s 님이 "%3$s" 사유로 검토자를 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"의 검토자를 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"의 검토자를 제거했습니다: %4$s.',
         ),
       ),
 
@@ -607,8 +607,8 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s dependencie(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에 의존성을 추가했습니다: %4$s.',
-          '%s 님이 %3$s에 의존성을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 의존성을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 의존성을 추가했습니다: %4$s.',
         ),
       ),
 
@@ -621,8 +621,8 @@ final class PhabricatorKoreanTranslation
 
       '%s removed %s dependencie(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에서 의존성을 제거했습니다: %4$s.',
-          '%s 님이 %3$s에서 의존성을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 의존성을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 의존성을 제거했습니다: %4$s.',
         ),
       ),
 
@@ -631,7 +631,7 @@ final class PhabricatorKoreanTranslation
       ),
 
       '%s edited dependencie(s) for %s, added %s: %s; removed %s: %s.' => array(
-        '%s 님이 "%s" 사유로 의존성을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
+        '%s 님이 "%s"의 의존성을 수정했습니다. 추가됨: %3$s; 삭제됨: %5$s.',
       ),
 
       '%s added %s dependent revision(s): %s.' => array(
@@ -643,8 +643,8 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s dependent revision(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에 의존하는 리비전을 추가했습니다: %4$s.',
-          '%s 님이 %3$s에 의존하는 리비전을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 의존하는 리비전을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 의존하는 리비전을 추가했습니다: %4$s.',
         ),
       ),
 
@@ -657,8 +657,8 @@ final class PhabricatorKoreanTranslation
 
       '%s removed %s dependent revision(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에서 의존하는 리비전을 제거했습니다: %4$s.',
-          '%s 님이 %3$s에서 의존하는 리비전을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 의존하는 리비전을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 의존하는 리비전을 제거했습니다: %4$s.',
         ),
       ),
 
@@ -698,20 +698,20 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s reverted commit(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에 되돌리는 커밋을 추가했습니다: %4$s.',
-          '%s 님이 %3$s에 되돌리는 커밋을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 되돌리는 커밋을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 되돌리는 커밋을 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s reverted commit(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에서 되돌리는 커밋을 제거했습니다: %4$s.',
-          '%s 님이 %3$s에서 되돌리는 커밋을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 되돌리는 커밋을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 되돌리는 커밋을 제거했습니다: %4$s.',
         ),
       ),
 
       '%s edited reverted commit(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 %2$s에서 되돌리는 커밋을 편집했습니다. 추가됨: %4$s;  제거됨: %6$s.',
+        '%s 님이 "%2$s"의 되돌리는 커밋을 편집했습니다. 추가됨: %4$s;  제거됨: %6$s.',
 
       '%s added %s reverting commit(s): %s.' => array(
         array(
@@ -732,20 +732,20 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s reverting commit(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에 되돌리는 커밋을 추가했습니다: %4$s.',
-          '%s 님이 %3$s에 되돌리는 커밋을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 되돌리는 커밋을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 되돌리는 커밋을 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s reverting commit(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에서 되돌리는 커밋을 삭제했습니다: %4$s.',
-          '%s 님이 %3$s에서 되돌리는 커밋을 삭제했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 되돌리는 커밋을 삭제했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 되돌리는 커밋을 삭제했습니다: %4$s.',
         ),
       ),
 
       '%s edited reverting commit(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 %s의 되돌리는 커밋을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
+        '%s 님이 "%s"의 되돌리는 커밋을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s changed project member(s), added %d: %s; removed %d: %s.' =>
         '%s 님이 프로젝트 구성원 목록을 수정했습니다. 추가됨: %3$s, 제거됨: %5$s.',
@@ -795,19 +795,19 @@ final class PhabricatorKoreanTranslation
       ),
 
       '%s changed %s hashtag(s), added %d: %s; removed %d: %s.' =>
-        '%s 님이 %s 의 해시태그를 바꾸었습니다. 추가됨: %4$s, 삭제됨: %6$s.',
+        '%s 님이 "%s"의 해시태그를 바꾸었습니다. 추가됨: %4$s, 삭제됨: %6$s.',
 
       '%s added %d %s hashtag(s): %s.' => array(
         array(
-          '%s 님이 %3$s 에 해시태그를 추가했습니다: %4$s.',
-          '%s 님이 %3$s 에 해시태그를 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 해시태그를 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 해시태그를 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %d %s hashtag(s): %s.' => array(
         array(
-          '%s 님이 %3$s 에서 해시태그를 제거했습니다: %4$s.',
-          '%s 님이 %3$s 에서 해시태그를 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 해시태그를 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 해시태그를 제거했습니다: %4$s.',
         ),
       ),
 
@@ -825,8 +825,8 @@ final class PhabricatorKoreanTranslation
 
       '%s pushed %d commit(s) to %s.' => array(
         array(
-          '%s 님이 %3$s 에 커밋을 푸시했습니다.',
-          '%s 님이 %s 에 %d 개의 커밋을 푸시했습니다.',
+          '%s 님이 "%3$s"에 커밋을 푸시했습니다.',
+          '%s 님이 "%s"에 %d개의 커밋을 푸시했습니다.',
         ),
       ),
 
@@ -864,40 +864,40 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s task(s) to %s: %s.' => array(
         array(
-          '%s 님이 %3$s에 작업을 추가했습니다: %4$s.',
-          '%s 님이 %3$s에 작업을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 작업을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 작업을 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s task(s) from %s: %s.' => array(
         array(
-          '%s 님이 %3$s에서 작업을 제거했습니다: %4$s.',
-          '%s 님이 %3$s에서 작업을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 작업을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 작업을 제거했습니다: %4$s.',
         ),
       ),
 
       '%s edited %s task(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 %3$s의 작업을 수정했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
+        '%s 님이 "%3$s"의 작업을 수정했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
 
       '%s edited %s commit(s), added %s: %s; removed %s: %s.' =>
         '%s 님이 커밋을 수정했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s added %s commit(s) to %s: %s.' => array(
         array(
-          '%s 님이 %3$s에 커밋을 추가했습니다: %4$s.',
-          '%s 님이 %3$s에 커밋을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 커밋을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 커밋을 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s commit(s) from %s: %s.' => array(
         array(
-          '%s 님이 %3$s에서 커밋을 삭제했습니다: %4$s.',
-          '%s 님이 %3$s에서 커밋을 삭제했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 커밋을 삭제했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 커밋을 삭제했습니다: %4$s.',
         ),
       ),
 
       '%s edited %s commit(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 %3$s 의 커밋을 수정했습니다. 추가됨: %5$s, 삭제됨: %7$s.',
+        '%s 님이 "%3$s"의 커밋을 수정했습니다. 추가됨: %5$s, 삭제됨: %7$s.',
 
       '%s added %s revision(s): %s.' => array(
         array(
@@ -918,40 +918,40 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s revision(s) to %s: %s.' => array(
         array(
-          '%s 님이 %3$s에 리비전을 추가했습니다: %4$s.',
-          '%s 님이 %3$s에 리비전을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 리비전을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 리비전을 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s revision(s) from %s: %s.' => array(
         array(
-          '%s 님이 %3$s에서 리비전을 제거했습니다: %4$s.',
-          '%s 님이 %3$s에서 리비전을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 리비전을 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 리비전을 제거했습니다: %4$s.',
         ),
       ),
 
       '%s edited %s revision(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s가 %3$s의 리비전을 편집했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
+        '%s가 "%3$s"의 리비전을 편집했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
 
       '%s edited %s project(s), added %s: %s; removed %s: %s.' =>
         '%s가 프로젝트를 편집했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s added %s project(s) to %s: %s.' => array(
         array(
-          '%s가 %3$s에 프로젝트를 추가했습니다: %4$s.',
-          '%s가 %3$s에 프로젝트를 추가했습니다: %4$s.',
+          '%s가 "%3$s"에 프로젝트를 추가했습니다: %4$s.',
+          '%s가 "%3$s"에 프로젝트를 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s project(s) from %s: %s.' => array(
         array(
-          '%s가 %3$s에서 프로젝트를 제거했습니다: %4$s.',
-          '%s가 %3$s에서 프로젝트를 제거했습니다: %4$s.',
+          '%s가 "%3$s"에서 프로젝트를 제거했습니다: %4$s.',
+          '%s가 "%3$s"에서 프로젝트를 제거했습니다: %4$s.',
         ),
       ),
 
       '%s edited %s project(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s가 %3$s에서 프로젝트를 편집했습니다, 추가됨: %5$s; 제거됨: %7$s.',
+        '%s가 "%3$s"에서 프로젝트를 편집했습니다, 추가됨: %5$s; 제거됨: %7$s.',
 
       '%s added %s panel(s): %s.' => array(
         array(
@@ -996,8 +996,8 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s edge(s) to %s: %s.' => array(
         array(
-          '%s 님이 %3$s에 엣지를 추가했습니다: %4$s.',
-          '%s 님이 %3$s에 엣지를 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 엣지를 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 엣지를 추가했습니다: %4$s.',
         ),
       ),
 
@@ -1010,8 +1010,8 @@ final class PhabricatorKoreanTranslation
 
       '%s removed %s edge(s) from %s: %s.' => array(
         array(
-          '%s 님이 %3$s에서 엣지를 제거했습니다: %4$s.',
-          '%s 님이 %3$s에서 엣지를 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 엣지를 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 엣지를 제거했습니다: %4$s.',
         ),
       ),
 
@@ -1019,24 +1019,24 @@ final class PhabricatorKoreanTranslation
         '%s 님이 엣지들을 편집했습니다. 추가됨: %3$s, 제거됨: %5$s.',
 
       '%s edited %s edge(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 %3$s에서 엣지들을 편집했습니다. 추가됨: %5$s, 제거됨: %7$s.',
+        '%s 님이 "%3$s"에서 엣지들을 편집했습니다. 추가됨: %5$s, 제거됨: %7$s.',
 
       '%s added %s member(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에 구성원을 추가했습니다: %4$s.',
-          '%s 님이 %3$s에 구성원을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 구성원을 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 구성원을 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s member(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s에서 구성원을 제외했습니다: %4$s.',
-          '%s 님이 %3$s에서 구성원을 제외했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 구성원을 제외했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 구성원을 제외했습니다: %4$s.',
         ),
       ),
 
       '%s edited %s member(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s 님이 %3$s의 구성원 명단을 수정했습니다. 추가됨: %5$s, 제외됨: %7$s.',
+        '%s 님이 "%3$s"의 구성원 명단을 수정했습니다. 추가됨: %5$s, 제외됨: %7$s.',
 
       '%d related link(s):' => array(
         '관련 링크:',
@@ -1217,26 +1217,26 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s badge(s) for %s: %s.' => array(
         array(
-          '%s 님이 배지 %3$s를 %s에게 추가했습니다.',
-          '%s 님이 배지 %3$s를 %s에게 추가했습니다.',
+          '%s 님이 배지 "%3$s"를 %s에게 추가했습니다.',
+          '%s 님이 배지 "%3$s"를 %s에게 추가했습니다.',
         ),
       ),
       '%s added %s badge(s): %s.' => array(
         array(
-          '%s 님이 배지 %3$s를 추가하였습니다.',
-          '%s 님이 배지 %3$s를 추가하였습니다.',
+          '%s 님이 배지 "%3$s"를 추가하였습니다.',
+          '%s 님이 배지 "%3$s"를 추가하였습니다.',
         ),
       ),
       '%s awarded %s recipient(s) for %s: %s.' => array(
         array(
-          '%s 님이 %3$s를 %4$s에게 수여했습니다.',
-          '%s 님이 %3$s를 이들에게 수여했습니다 : %4$s.',
+          '%s 님이 "%3$s"를 %4$s에게 수여했습니다.',
+          '%s 님이 "%3$s"를 이들에게 수여했습니다 : %4$s.',
         ),
       ),
       '%s awarded %s recipients(s): %s.' => array(
         array(
-          '%s 님이 %3$s를 수여했습니다.',
-          '%s 님이 %3$s를 수여했습니다.',
+          '%s 님이 "%3$s"를 수여했습니다.',
+          '%s 님이 "%3$s"를 수여했습니다.',
         ),
       ),
       '%s edited badge(s) for %s, added %s: %s; revoked %s: %s.' => array(
@@ -1253,8 +1253,8 @@ final class PhabricatorKoreanTranslation
       ),
       '%s edited recipient(s) for %s, awarded %s: %s; revoked %s: %s.' => array(
         array(
-          '%s 님이 %s의 수여자를 수정했습니다, %s 수여 : %s; %s 취소 : %s.',
-          '%s 님이 %s의 수여자를 수정했습니다, %s 수여 : %s; %s 취소 : %s.',
+          '%s 님이 "%s"의 수여자를 수정했습니다, %s 수여 : %s; %s 회수 : %s.',
+          '%s 님이 "%s"의 수여자를 수정했습니다, %s 수여 : %s; %s 회수 : %s.',
         ),
       ),
       '%s edited recipient(s), awarded %s: %s; revoked %s: %s.' => array(
@@ -1513,6 +1513,31 @@ final class PhabricatorKoreanTranslation
         '객체 %s 영구 삭제.',
       ),
       
+      //홈
+      'No "Unbreak Now!" Tasks: Nothing appears to be critically broken right now.' =>
+        '"당장 해결해야함!" 등급의 작업이 없습니다: 당장은 심각한 문제가 없는듯합니다.',
+      
+      'No "Needs Triage" Tasks: No tasks in projects you are a member of need triage.' =>
+        '"분배 필요" 등급의 작업이 없습니다: 분배 담당자라면, 축하합니다! 쉬세요!',
+      
+      'No Assigned Tasks: You have no assigned tasks.' =>
+        '할당된 작업 없음: 당신이 담당하게 된 작업이 없습니다.',
+      
+      'No Audits: No commits are waiting for you to audit them.' =>
+        '검토 없음: 검토해야 할 커밋이 없습니다.',
+        
+      'No Problem Commits: No one has raised concerns with your commits.' =>
+        '문제되는 커밋 없음: 아무도 당신의 커밋에 이의를 제기하지 않았습니다.',
+      
+      'No Waiting Revisions: No revisions are waiting on you.' =>
+        'No Waiting Revisions: No revisions are waiting on you.',
+      
+      'Home' =>
+        '시작',
+      
+      'Command Center' =>
+        '시작화면으로 돌아갑니다.',
+      
       'Configure' =>
         '환경설정',
         
@@ -1589,7 +1614,7 @@ final class PhabricatorKoreanTranslation
         '프릭션',
         
       'Wiki' =>
-        '자유롭게 읽고 쓰기가 가능한 문서입니다.',
+        '자유롭게 읽고 쓰는 문서입니다.',
 
       'Phurl (Prototype)' =>
         '펄 (프로토타입)',
