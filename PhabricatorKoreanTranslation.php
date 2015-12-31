@@ -1136,8 +1136,8 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s owner(s): %s.' => array(
         array(
-          '%s님이 오너로 추가하였습니다: %3$s.',
-          '%s님이 오너로 추가하였습니다: %3$s.',
+          '%s 님이 오너로 추가하였습니다: %3$s.',
+          '%s 님이 오너로 추가하였습니다: %3$s.',
         ),
       ),
 
@@ -1515,22 +1515,22 @@ final class PhabricatorKoreanTranslation
       
       //홈
       'No "Unbreak Now!" Tasks: Nothing appears to be critically broken right now.' =>
-        '"당장 해결해야함!" 등급의 작업이 없습니다: 당장은 심각한 문제가 없는듯합니다.',
+        '"당장 해결해야 함!" 등급의 작업이 없습니다: 당장은 심각한 문제가 없는 듯합니다.',
       
       'No "Needs Triage" Tasks: No tasks in projects you are a member of need triage.' =>
         '"분배 필요" 등급의 작업이 없습니다: 분배 담당자라면, 축하합니다! 쉬세요!',
       
       'No Assigned Tasks: You have no assigned tasks.' =>
-        '할당된 작업 없음: 당신이 담당하게 된 작업이 없습니다.',
+        '할당된 작업 없음: 당신이 담당할 작업이 없습니다.',
       
       'No Audits: No commits are waiting for you to audit them.' =>
-        '검토 없음: 검토해야 할 커밋이 없습니다.',
+        '검토 없음: 검토할 커밋이 없습니다.',
         
       'No Problem Commits: No one has raised concerns with your commits.' =>
         '문제되는 커밋 없음: 아무도 당신의 커밋에 이의를 제기하지 않았습니다.',
       
       'No Waiting Revisions: No revisions are waiting on you.' =>
-        'No Waiting Revisions: No revisions are waiting on you.',
+        '대기 중인 리비전 없음: 당신을 기다리는 리비전이 없습니다.',
       
       //매니페스트
       'Cancel' => '취소',
@@ -1957,7 +1957,7 @@ final class PhabricatorKoreanTranslation
         '취소',
 
       'Unbreak Now!' =>
-        '당장 해결해야함!',
+        '당장 해결해야 함!',
       
       'Needs Triage' =>
         '분배 필요',
@@ -2008,7 +2008,7 @@ final class PhabricatorKoreanTranslation
         '보고서',
         
       'Open' =>
-        '열려있음',
+        '열려 있음',
         
       'Resolved' =>
         '해결됨',
@@ -2026,22 +2026,22 @@ final class PhabricatorKoreanTranslation
         '알 수 없음',
       
       'No "Unbreak Now!" Tasks: Nothing appears to be critically broken right now.' =>
-        '"당장 해결해야함!" 등급의 작업이 없습니다: 당장은 심각한 문제가 없는듯합니다.',
+        '"당장 해결해야함!" 등급의 작업이 없습니다: 당장은 심각한 문제가 없는 듯합니다.',
       
       'No "Needs Triage" Tasks: No tasks in projects you are a member of need triage.' =>
         '"분배 필요" 등급의 작업이 없습니다: 분배 담당자라면, 축하합니다! 쉬세요!',
       
       'No Assigned Tasks: You have no assigned tasks.' =>
-        '할당된 작업 없음: 당신이 담당하게 된 작업이 없습니다.',
+        '할당된 작업 없음: 당신이 담당하는 작업이 없습니다.',
       
       'No Audits: No commits are waiting for you to audit them.' =>
-        '검토 없음: 검토해야 할 커밋이 없습니다.',
+        '검토 없음: 검토할 커밋이 없습니다.',
         
       'No Problem Commits: No one has raised concerns with your commits.' =>
         '문제되는 커밋 없음: 아무도 당신의 커밋에 이의를 제기하지 않았습니다.',
       
       'No Waiting Revisions: No revisions are waiting on you.' =>
-        'No Waiting Revisions: No revisions are waiting on you.'
+        '대기 중인 리비전 없음: 당신을 기다리는 리비전이 없습니다.'
     );
   }
 
