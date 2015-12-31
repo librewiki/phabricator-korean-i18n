@@ -1671,7 +1671,7 @@ final class PhabricatorKoreanTranslation
         '드라이독 (프로토타입)',
         
       'Allocate Software Resources' =>
-        '소프트웨어의 리소스들을 할당합니다.',
+        '소프트웨어 리소스를 할당합니다.',
 
       'Facts (Prototype)' =>
         '팩트 (프로토타입)',
