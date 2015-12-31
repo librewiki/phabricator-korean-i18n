@@ -1814,9 +1814,142 @@ final class PhabricatorKoreanTranslation
         'XH프롭',
         
       'PHP Profiling Tool' =>
-        'PHP 자료수집 도구입니다.'
+        'PHP 자료수집 도구입니다.',
       
+      'Applications' =>
+        '어플리케이션',
       
+      'Explore More Applications' =>
+        '더 많은 어플리케이션 찾기',
+      
+      'Customize Menu...' =>
+        '메뉴 커스터마이즈',
+      
+      'Create Task' =>
+        '새 작업',
+        
+      'Title' =>
+        '제목',
+      
+      'Required' =>
+        '필수사항',
+
+      'Assigned To' =>
+        '담당자',
+
+      'Status' =>
+        '상태',
+
+      'Priority' =>
+        '우선도',
+      
+      'Description' =>
+        '내용',
+
+      'Visible To' =>
+        '열람 권한',
+      
+      'All Users' =>
+        '모든 사용자',
+      
+      'Editable By' =>
+        '수정 권한',
+        
+      'Subscribers' =>
+        '구독자',
+
+      'Create New Task' =>
+        '새 작업 만들기',
+      
+      'Cancel' =>
+        '취소',
+
+      'Unbreak Now!' =>
+        '당장 해결해야함!',
+      
+      'Needs Triage' =>
+        '분배 필요',
+        
+      'High' =>
+        '높음',
+        
+      'Normal' =>
+        '보통',
+        
+      'Low' =>
+        '낮음',
+      
+      'Wishlist' =>
+        '위시리스트',
+      
+      'QUERIES' =>
+        '쿼리',
+      
+      'Assigned' =>
+        '담당 중',
+        
+      'Authored' =>
+        '본인 작성',
+        
+      'Subscribed' =>
+        '구독중',
+        
+      'Open Tasks' =>
+        '열려있는 작업',
+      
+      'All Tasks' =>
+        '모든 작업',
+        
+      'Edit Queries...' =>
+        '쿼리 수정...',
+        
+      'SEARCH' =>
+        '검색',
+        
+      'Advanced Search' =>
+        '정밀 검색',
+      
+      'REPORTS' =>
+        '보고서',
+      
+      'Reports' =>
+        '보고서',
+        
+      'Open' =>
+        '열려있음',
+        
+      'Resolved' =>
+        '해결됨',
+        
+      'Wontfix' =>
+        '거절됨',
+        
+      'Decline' =>
+        '거절됨',
+        
+      'Invalid' =>
+        '작업이 아님',
+      
+      'Spite' =>
+        '알 수 없음',
+      
+      'No "Unbreak Now!" Tasks: Nothing appears to be critically broken right now.' =>
+        '"당장 해결해야함!" 등급의 작업이 없습니다: 당장은 심각한 문제가 없는듯합니다.',
+      
+      'No "Needs Triage" Tasks: No tasks in projects you are a member of need triage.' =>
+        '"분배 필요" 등급의 작업이 없습니다: 분배 담당자라면, 축하합니다! 쉬세요!',
+      
+      'No Assigned Tasks: You have no assigned tasks.' =>
+        '할당된 작업 없음: 당신이 담당하게 된 작업이 없습니다.',
+      
+      'No Audits: No commits are waiting for you to audit them.' =>
+        '검토 없음: 검토해야 할 커밋이 없습니다.',
+        
+      'No Problem Commits: No one has raised concerns with your commits.' =>
+        '문제되는 커밋 없음: 아무도 당신의 커밋에 이의를 제기하지 않았습니다.',
+      
+      'No Waiting Revisions: No revisions are waiting on you.' =>
+        'No Waiting Revisions: No revisions are waiting on you.'
     );
   }
 
