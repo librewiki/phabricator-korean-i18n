@@ -1597,7 +1597,7 @@ final class PhabricatorKoreanTranslation
       'Older changes are hidden.' => '오래된 내용들을 감추었습니다.',
       'Show older changes.' => '오래된 내용 펼치기',
       'Author' => '저자',
-      'Note' => '메모'
+      'Note' => '메모',
       // 매니페스트 작업
       'Home' =>
         '시작',
