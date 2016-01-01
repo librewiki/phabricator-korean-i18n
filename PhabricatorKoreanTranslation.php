@@ -1612,7 +1612,7 @@ final class PhabricatorKoreanTranslation
         '핵심 어플리케이션',
         
       'Audit' =>
-        '어딧',
+        '검토',
         
       'Browse and Audit Commits' =>
         '커밋들을 둘러보고 검토합니다.',
