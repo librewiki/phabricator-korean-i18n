@@ -1852,7 +1852,7 @@ final class PhabricatorKoreanTranslation
         '로그인과 회원가입을 관리합니다.',
 
       'Config' =>
-        '컨피그',
+        '설정',
         
       'Configure Phabricator' =>
         '파브리케이터 환경설정입니다.',
@@ -2041,7 +2041,58 @@ final class PhabricatorKoreanTranslation
         '문제되는 커밋 없음: 아무도 당신의 커밋에 이의를 제기하지 않았습니다.',
       
       'No Waiting Revisions: No revisions are waiting on you.' =>
-        '대기 중인 리비전 없음: 당신을 기다리는 리비전이 없습니다.'
+        '대기 중인 리비전 없음: 당신을 기다리는 리비전이 없습니다.',
+
+      'Repositories' =>
+        '저장소',
+
+      'Configuration' =>
+        '설정',
+
+      'Translation' =>
+        '번역',
+
+      'Account Settings' =>
+        '계정설정',
+
+      'Account' =>
+        '계정',
+
+      'Date and Time Settings' =>
+        '날짜와 시간 설정',
+
+      'Date and Time' =>
+        '날짜와 시간',
+
+      'Password' =>
+        '비밀번호',
+
+      'Change Password' =>
+        '비밀번호 변경',
+
+      'Settings' =>
+        '설정',
+
+      'Account Information' =>
+        '계정 정보',
+
+      'Email' =>
+        '이메일',
+
+      'Email Addresses' =>
+        '이메일 주소',
+
+      'Remove' =>
+        '삭제',
+
+      'Email Preferences' =>
+        '이메일 설정',
+
+      'Email Notifications' =>
+        '이메일 알림',
+
+      'Log Out' =>
+        '로그아웃'
     );
   }
 
