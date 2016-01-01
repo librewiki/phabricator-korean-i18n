@@ -208,15 +208,15 @@ final class PhabricatorKoreanTranslation
 
       '%s added %s blocking task(s): %s.' => array(
         array(
-          '%s 가 선행 작업으로 추가했습니다: %3$s.',
-          '%s 가 선행 작업으로 추가했습니다: %3$s.',
+          '%s 님이 선행 작업으로 추가했습니다: %3$s.',
+          '%s 님이 선행 작업으로 추가했습니다: %3$s.',
         ),
       ),
 
       '%s added %s blocked task(s): %s.' => array(
         array(
-          '%s 가 후행 작업으로 추가했습니다: %3$s.',
-          '%s 가 후행 작업으로 추가했습니다: %3$s.',
+          '%s 님이 후행 작업으로 추가했습니다: %3$s.',
+          '%s 님이 후행 작업으로 추가했습니다: %3$s.',
         ),
       ),
 
@@ -931,27 +931,27 @@ final class PhabricatorKoreanTranslation
       ),
 
       '%s edited %s revision(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s가 "%3$s"의 리비전을 편집했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
+        '%s 님이 "%3$s"의 리비전을 편집했습니다. 추가됨: %5$s; 삭제됨: %7$s.',
 
       '%s edited %s project(s), added %s: %s; removed %s: %s.' =>
-        '%s가 프로젝트를 편집했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
+        '%s 님이 프로젝트를 편집했습니다. 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s added %s project(s) to %s: %s.' => array(
         array(
-          '%s가 "%3$s"에 프로젝트를 추가했습니다: %4$s.',
-          '%s가 "%3$s"에 프로젝트를 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 프로젝트를 추가했습니다: %4$s.',
+          '%s 님이 "%3$s"에 프로젝트를 추가했습니다: %4$s.',
         ),
       ),
 
       '%s removed %s project(s) from %s: %s.' => array(
         array(
-          '%s가 "%3$s"에서 프로젝트를 제거했습니다: %4$s.',
-          '%s가 "%3$s"에서 프로젝트를 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 프로젝트를 제거했습니다: %4$s.',
+          '%s 님이 "%3$s"에서 프로젝트를 제거했습니다: %4$s.',
         ),
       ),
 
       '%s edited %s project(s) for %s, added %s: %s; removed %s: %s.' =>
-        '%s가 "%3$s"에서 프로젝트를 편집했습니다, 추가됨: %5$s; 제거됨: %7$s.',
+        '%s 님이 "%3$s"에서 프로젝트를 편집했습니다, 추가됨: %5$s; 제거됨: %7$s.',
 
       '%s added %s panel(s): %s.' => array(
         array(
@@ -1124,8 +1124,8 @@ final class PhabricatorKoreanTranslation
       ),
 
       'These %s object(s) will be destroyed forever:' => array(
-        '이 객체는 영구히 파괴됩니다.:',
-        '이 객체는 영구히 파괴됩니다.:',
+        '이 객체는 영구히 파괴됩니다:',
+        '이 객체는 영구히 파괴됩니다:',
       ),
 
       'Are you absolutely certain you want to destroy these %s '.
@@ -1303,13 +1303,13 @@ final class PhabricatorKoreanTranslation
       ),
 
       '%s target(s) are not subscribed: %s.' => array(
-        '구독중이 아닙니다: %2$s.',
-        '구독중이 아닙니다: %2$s.',
+        '구독 중이 아닙니다: %2$s.',
+        '구독 중이 아닙니다: %2$s.',
       ),
 
       '%s target(s) are already subscribed: %s.' => array(
-        '이미 구독중입니다: %2$s.',
-        '이미 구독중입니다: %2$s.',
+        '이미 구독 중입니다: %2$s.',
+        '이미 구독 중입니다: %2$s.',
       ),
 
       'Added %s subscriber(s): %s.' => array(
@@ -1336,8 +1336,8 @@ final class PhabricatorKoreanTranslation
       ),
 
       '%s project(s) are not associated: %s.' => array(
-        '프로젝트가 연관되어있지 않습니다: %2$s.',
-        '프로젝트가 연관되어있지 않습니다: %2$s.',
+        '프로젝트가 연관되어 있지 않습니다: %2$s.',
+        '프로젝트가 연관되어 있지 않습니다: %2$s.',
       ),
 
       '%s project(s) are already associated: %s.' => array(
@@ -1477,8 +1477,8 @@ final class PhabricatorKoreanTranslation
       ),
 
       'Found %s total commit(s); updating...' => array(
-        '총 %s개의 커밋을 찾았습니다; 갱신중...',
-        '총 %s개의 커밋을 찾았습니다; 갱신중...',
+        '총 %s개의 커밋을 찾았습니다; 갱신 중...',
+        '총 %s개의 커밋을 찾았습니다; 갱신 중...',
       ),
 
       'Not enough process slots to schedule the other %s '.
@@ -1491,26 +1491,26 @@ final class PhabricatorKoreanTranslation
 
 
       '%s updated %s, added %d: %s.' =>
-        '%s가 %s를 갱신함, 추가됨: %4$s.',
+        '%s 님이 %s를 갱신함, 추가됨: %4$s.',
 
       '%s updated %s, removed %s: %s.' =>
-        '%s가 %s를 갱신함, 삭제됨: %4$s.',
+        '%s 님이 %s를 갱신함, 삭제됨: %4$s.',
 
       '%s updated %s, added %s: %s; removed %s: %s.' =>
-        '%s가 %s를 갱신함, 추가됨: %4$s; 삭제됨: %6$s.',
+        '%s 님이 %s를 갱신함, 추가됨: %4$s; 삭제됨: %6$s.',
 
       '%s updated %s for %s, added %d: %s.' =>
-        '%s가 %s를 "%s"의 사유로 갱신함, 추가됨: %5$s.',
+        '%s 님이 %s를 "%s"의 사유로 갱신함, 추가됨: %5$s.',
 
       '%s updated %s for %s, removed %s: %s.' =>
-        '%s가 %s를 "%s"의 사유로 갱신함, 삭제됨: %5$s.',
+        '%s 님이 %s를 "%s"의 사유로 갱신함, 삭제됨: %5$s.',
 
       '%s updated %s for %s, added %s: %s; removed %s: %s.' =>
-        '%s가 %s를 "%s"의 사유로 갱신함, 추가됨: %5$s; 삭제됨; %7$s.',
+        '%s 님이 %s를 "%s"의 사유로 갱신함, 추가됨: %5$s; 삭제됨; %7$s.',
 
       'Permanently destroyed %s object(s).' => array(
-        '객체 %s 영구 삭제.',
-        '객체 %s 영구 삭제.',
+        '객체 %s개 영구 삭제.',
+        '객체 %s개 영구 삭제.',
       ),
       
       //홈
@@ -1572,26 +1572,26 @@ final class PhabricatorKoreanTranslation
       
       'You can flag this Maniphest Task if you want to remember to look at it later.' => '이 매니페스트 작업을 다음에 보기위해 기억하기 위해서 기록합니다.',
       
-      '%s created this task.' => '%s가 이 작업을 만들었습니다.',
-      '%s added a project: %s.' => '%s가 프로젝트를 추가했습니다: %s.',
-      '%s moved this task to %s on the %s workboard.' => '%s가 이 작업을 %s상태로 %s로 옮겼습니다.',
-      '%s added a subscriber: %s.' => '%s가 구독자를 추가했습니다: %s',
-      '%s added a comment.' => '%s가 의견을 제시했습니다.',
-      '%s created this object with visibility "%s".' => '%s가 이 객체를 %s만 볼 수 있게 만들었습니다.',
-      '%s created this object with edit policy "%s".' => '%s가 이 객체를 %s만 수정할 수 있게 만들었습니다.',
-      '%s raised the priority of this task from "%s" to "%s".' => '%s가 이 작업의 우선도를 %s에서 %s로 높였습니다.',
-      '%s lowered the priority of this task from "%s" to "%s".' => '%s가 이 작업의 우선도를 %s에서 %s로 낮췄습니다.',
-      '%s triaged this task as "%s" priority' => '%s가 이 작업의 우선도를 %s로 설정하였습니다.',
-      'In %s, %s wrote:' => '%s에서 %s가 한 말을 인용하였습니다.',
+      '%s created this task.' => '%s 님이 이 작업을 만들었습니다.',
+      '%s added a project: %s.' => '%s 님이 프로젝트를 추가했습니다: %s.',
+      '%s moved this task to %s on the %s workboard.' => '%s 님이 이 작업을 %s상태로 %s로 옮겼습니다.',
+      '%s added a subscriber: %s.' => '%s 님이 구독자를 추가했습니다: %s',
+      '%s added a comment.' => '%s 님이 의견을 제시했습니다.',
+      '%s created this object with visibility "%s".' => '%s 님이 이 객체를 %s만 볼 수 있게 만들었습니다.',
+      '%s created this object with edit policy "%s".' => '%s 님이 이 객체를 %s만 수정할 수 있게 만들었습니다.',
+      '%s raised the priority of this task from "%s" to "%s".' => '%s 님이 이 작업의 우선도를 %s에서 %s로 높였습니다.',
+      '%s lowered the priority of this task from "%s" to "%s".' => '%s 님이 이 작업의 우선도를 %s에서 %s로 낮췄습니다.',
+      '%s triaged this task as "%s" priority' => '%s 님이 이 작업의 우선도를 %s로 설정하였습니다.',
+      'In %s, %s wrote:' => '%s에서 %s 님이 한 말을 인용하였습니다.',
       'This comment was removed by %s.' => '%s에 의해 삭제된 의견입니다.',
       
-      '%s added a blocked task: %s' => '%s가 이 작업을 다음 작업들의 선행작업으로 설정하였습니다: %s',
-      '%s removed a blocked task: %s' => '%s가 이 작업을 선행작업으로 설정한 것을 취소하였습니다: %s',
+      '%s added a blocked task: %s' => '%s 님이 이 작업을 다음 작업들의 선행작업으로 설정하였습니다: %s',
+      '%s removed a blocked task: %s' => '%s 님이 이 작업을 선행작업으로 설정한 것을 취소하였습니다: %s',
       
-      '%s added a blocking task: %s' => '%s가 이 작업이 다음 작업을 선행으로 해야한다고 설정하였습니다: %s',
-      '%s removed a blocking task: %s' => '%s가 다음 작업을 선행해야 한다는 것을 취소하였습니다: %s',
-      '%s assigned this task to %s' => '%s가 이 작업을 %s에게 할당하였습니다.',
-      '%s closed this task as "%s".' => '%s가 이 작업이 %s상태로 보고 닫았습니다.',
+      '%s added a blocking task: %s' => '%s 님이 이 작업이 다음 작업을 선행으로 해야한다고 설정하였습니다: %s',
+      '%s removed a blocking task: %s' => '%s 님이 다음 작업을 선행해야 한다는 것을 취소하였습니다: %s',
+      '%s assigned this task to %s' => '%s 님이 이 작업을 %s에게 할당하였습니다.',
+      '%s closed this task as "%s".' => '%s 님이 이 작업이 %s상태로 보고 닫았습니다.',
       
       'CC' => '구독자',
       'Older changes are hidden.' => '오래된 내용들을 감추었습니다.',
@@ -1984,7 +1984,7 @@ final class PhabricatorKoreanTranslation
         '본인 작성',
         
       'Subscribed' =>
-        '구독중',
+        '구독 중',
         
       'Open Tasks' =>
         '열려있는 작업',
@@ -2026,7 +2026,7 @@ final class PhabricatorKoreanTranslation
         '알 수 없음',
       
       'No "Unbreak Now!" Tasks: Nothing appears to be critically broken right now.' =>
-        '"당장 해결해야함!" 등급의 작업이 없습니다: 당장은 심각한 문제가 없는 듯합니다.',
+        '"당장 해결해야 함!" 등급의 작업이 없습니다: 당장은 심각한 문제가 없는 듯합니다.',
       
       'No "Needs Triage" Tasks: No tasks in projects you are a member of need triage.' =>
         '"분배 필요" 등급의 작업이 없습니다: 분배 담당자라면, 축하합니다! 쉬세요!',
