@@ -2092,7 +2092,74 @@ final class PhabricatorKoreanTranslation
         '이메일 알림',
 
       'Log Out' =>
-        '로그아웃'
+        '로그아웃',
+
+      'SSH Public Keys' =>
+        'SSH 공개 키',
+
+      'Name' =>
+        '이름',
+
+      'Type' =>
+        '종류',
+
+      'Application Settings' =>
+        '어플리케이션 설정',
+
+      'Developer' =>
+        '파브리케이터 개발자',
+
+      'Developer Settings' =>
+        '개발자 설정',
+
+      'Authentication' =>
+        '인증',
+
+      'Sessions and Logs' =>
+        '세션 및 기록',
+
+      'Assigned: %s' =>
+        '담당자: %s',
+
+      'No Projects' =>
+        '프로젝트 없음',
+
+      '%s Help' =>
+        '%s 도움말',
+
+      '%s triaged this task as "%s" priority.' =>
+        '%s 님이 이 작업의 우선도를 "%s"로 변경하였습니다.',
+
+      '%s reopened this task as "%s".' =>
+        '%s 님이 "%s" 상태로 작업을 다시 열었습니다.',
+
+      'None' =>
+        '없음',
+
+      'Repository' =>
+        '저장소',
+
+      'Recent Commits' =>
+        '최근 커밋',
+
+      'Search' =>
+        '검색',
+
+      'All Notifications' => 
+        '모든 알림',
+
+      'Notifications'=>
+        '알림',
+
+      'Recent Activity' =>
+        '최근 활동',
+
+      'Administrators' =>
+        '관리자',
+
+      'Assigned Tasks' =>
+        '할당된 작업',
+
     );
   }
 
