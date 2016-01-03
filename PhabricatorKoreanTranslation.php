@@ -1169,28 +1169,28 @@ final class PhabricatorKoreanTranslation
         'Found %s unatomized, uncached files.',
       ),
       'Found %s file(s) to atomize.' => array(
-        'Found %s file to atomize.',
-        'Found %s files to atomize.',
+        '원자화할 파일 %s개를 찾음.',
+        '원자화할 파일 %s개를 찾음.',
       ),
       'Atomizing %s file(s).' => array(
-        'Atomizing %s file.',
-        'Atomizing %s files.',
+        '파일 %s개 원자화 중.',
+        '파일 %s개 원자화 중.',
       ),
       'Creating %s document(s).' => array(
-        '문서 %s개 생성중.',
-        '문서 %s개 생성중.',
+        '문서 %s개 생성 중.',
+        '문서 %s개 생성 중.',
       ),
       'Deleting %s document(s).' => array(
-        '문서 %s개 삭제중',
-        '문서 %s개 삭제중',
+        '문서 %s개 삭제 중',
+        '문서 %s개 삭제 중',
       ),
       'Found %s obsolete atom(s) in graph.' => array(
-        'Found %s obsolete atom in graph.',
-        'Found %s obsolete atoms in graph.',
+        '그래프에서 고립된 원자를 %s개 찾음.',
+        '그래프에서 고립된 원자를 %s개 찾음.',
       ),
       'Found %s new atom(s) in graph.' => array(
-        'Found %s new atom in graph.',
-        'Found %s new atoms in graph.',
+        '그래프에서 새로운 원자를 %s개 찾음.',
+        '그래프에서 새로운 원자를 %s개 찾음.',
       ),
       'This call takes %s parameter(s), but only %s are documented.' => array(
         array(
@@ -1376,8 +1376,8 @@ final class PhabricatorKoreanTranslation
       ),
 
       'Added %s auditor(s): %s.' => array(
-        'Added an auditor: %2$s.',
-        'Added auditors: %2$s.',
+        '검토자를 추가했습니다: %2$s.',
+        '검토자를 추가했습니다: %2$s.',
       ),
 
       '%s target(s) do not have permission to see this object: %s.' => array(
@@ -1437,13 +1437,13 @@ final class PhabricatorKoreanTranslation
       ),
 
       'Found %s Open Resource(s)' => array(
-        'Found %s Open Resource',
-        'Found %s Open Resources',
+        '오픈 리소스 %s개 찾음',
+        '오픈 리소스 %s개 찾음',
       ),
 
       '%s Open Resource(s) Remain' => array(
-        '%s Open Resource Remain',
-        '%s Open Resources Remain',
+        '오픈 리소스 %s개 남음',
+        '오픈 리소스 %s개 남음',
       ),
 
       'Found %s Blueprint(s)' => array(
@@ -1462,13 +1462,13 @@ final class PhabricatorKoreanTranslation
       ),
 
       '%s Event(s)' => array(
-        '%s개의 이벤트',
-        '%s개의 이벤트',
+        '이벤트 %s개',
+        '이벤트 %s개',
       ),
 
       '%s Unit(s)' => array(
-        '%s Unit',
-        '%s Units',
+        '유닛 %s개',
+        '유닛 %s개',
       ),
 
       'QUEUEING TASKS (%s Commit(s)):' => array(
